@@ -8,7 +8,7 @@ import { ObjectId } from "mongoose";
 
 class TransactionService {
   public getAllTransactions() {
-    return TransactionModel.find().populate("category").exec();
+    return TransactionModel.find().exec();
   }
 
   public addTransactions(transaction: ITransactionModel) {
@@ -37,8 +37,8 @@ class TransactionService {
   }
     
 
-  public async getByCategory(category: ObjectId) {
-    return await TransactionModel.find({ category: category }).exec();
+  public async getByCategory(category: string) {
+    return await TransactionModel.find({ category }).exec();
   }
             
 

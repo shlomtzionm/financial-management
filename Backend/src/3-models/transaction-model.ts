@@ -6,7 +6,7 @@ export interface ITransactionModel extends Document {
     date: string;
     amount: number;
     description: string;
-    category: ObjectId;
+    category: string;
 }
 
 // Define the Transaction Schema
@@ -24,21 +24,15 @@ const TransactionSchema = new Schema<ITransactionModel>({
         required: [true, "missing description"]
     },
     category: {
-        type: mongoose.Types.ObjectId,
+        type: String,
         required: [true, "missing category"]
     }
 }, {
     versionKey: false,
-    toJSON:{virtuals:true},
-    id:false
+ 
 });
 
 
-TransactionSchema.virtual("categoryId",{
-    ref: CategoryModel,
-    localField:"category",
-    foreignField:"_id",
-    justOne:true
-})
+
 
 export const TransactionModel = model<ITransactionModel>("TransactionModel", TransactionSchema, "Transactions");

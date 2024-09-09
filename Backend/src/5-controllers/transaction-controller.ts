@@ -69,10 +69,10 @@ class TransactionsController {
 
 
 
-    private getByCategory(request: Request, response: Response, next: NextFunction) {
+    private async getByCategory(request: Request, response: Response, next: NextFunction) {
         try {
-            const category =new mongoose.Types.ObjectId(request.params._id)
-          const transactions=  transactionService.getByCategory(category)
+            const category =request.params._id
+          const transactions= await transactionService.getByCategory(category)
             response.status(StatusCode.OK).send(transactions);
         }
         catch (err: any) { next(err); }
