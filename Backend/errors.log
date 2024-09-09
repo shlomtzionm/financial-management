@@ -1,0 +1,452 @@
+Time: Thu Jul 04 2024 19:01:40 GMT+0300 (שעון ישראל (קיץ))
+Message: BookModel validation failed: pages: Missing pages., price: Missing price., name: Missing name.
+Stack: ValidationError: BookModel validation failed: pages: Missing pages., price: Missing price., name: Missing name.
+    at model.Document.invalidate (C:\4578-99\2024-07-04\REST API using MongoDB\node_modules\mongoose\lib\document.js:3306:32)
+    at C:\4578-99\2024-07-04\REST API using MongoDB\node_modules\mongoose\lib\document.js:3067:17
+    at C:\4578-99\2024-07-04\REST API using MongoDB\node_modules\mongoose\lib\schemaType.js:1388:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+---------------------------------------
+
+Time: Thu Jul 04 2024 19:02:15 GMT+0300 (שעון ישראל (קיץ))
+Message: BookModel validation failed: price: Price can't be negative., pages: Pages can't exceed 1000.
+Stack: ValidationError: BookModel validation failed: price: Price can't be negative., pages: Pages can't exceed 1000.
+    at model.Document.invalidate (C:\4578-99\2024-07-04\REST API using MongoDB\node_modules\mongoose\lib\document.js:3306:32)
+    at C:\4578-99\2024-07-04\REST API using MongoDB\node_modules\mongoose\lib\document.js:3067:17
+    at C:\4578-99\2024-07-04\REST API using MongoDB\node_modules\mongoose\lib\schemaType.js:1388:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+---------------------------------------
+
+Time: Thu Jul 04 2024 20:10:49 GMT+0300 (שעון ישראל (קיץ))
+Message: _id 6686c796f9c23ed6a6f038cc not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Jul 04 2024 20:12:01 GMT+0300 (שעון ישראל (קיץ))
+Message: BookModel validation failed: name: Missing name.
+Stack: ValidationError: BookModel validation failed: name: Missing name.
+    at model.Document.invalidate (C:\4578-99\2024-07-04\REST API using MongoDB\node_modules\mongoose\lib\document.js:3306:32)
+    at C:\4578-99\2024-07-04\REST API using MongoDB\node_modules\mongoose\lib\document.js:3067:17
+    at C:\4578-99\2024-07-04\REST API using MongoDB\node_modules\mongoose\lib\schemaType.js:1388:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+---------------------------------------
+
+Time: Thu Jul 04 2024 20:16:29 GMT+0300 (שעון ישראל (קיץ))
+Message: BookModel validation failed: name: Missing name.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Jul 04 2024 20:27:29 GMT+0300 (שעון ישראל (קיץ))
+Message: _id 6686c7bff9c23ed6a6f038cf not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Jul 04 2024 20:29:38 GMT+0300 (שעון ישראל (קיץ))
+Message: _id 6686c796f9c23ed6a6f038cc not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Jul 04 2024 20:29:52 GMT+0300 (שעון ישראל (קיץ))
+Message: _id 6686c7bff9c23ed6a6f038ce not exist.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 08 2024 12:21:50 GMT+0300 (שעון ישראל (קיץ))
+Message: Route /Transactions not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 08 2024 12:22:07 GMT+0300 (שעון ישראל (קיץ))
+Message: Route /Transactions not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 08 2024 12:22:14 GMT+0300 (שעון ישראל (קיץ))
+Message: Route /transactions not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:09:27 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:200:7)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2288:20)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:09:53 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:200:7)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2288:20)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:10:09 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:200:7)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2288:20)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:10:58 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:200:7)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2288:20)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:12:59 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:200:7)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2288:20)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:13:07 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:200:7)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2288:20)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:15:49 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:200:7)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2288:20)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:21:38 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at _virtualPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:454:7)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:42:12)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:21:39 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at _virtualPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:454:7)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:42:12)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:26:44 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at _virtualPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:454:7)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:42:12)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:29:12 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at _virtualPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:454:7)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:42:12)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:29:13 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at _virtualPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:454:7)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:42:12)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:29:14 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at _virtualPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:454:7)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:42:12)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:31:16 GMT+0300 (שעון ישראל (קיץ))
+Message: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+Stack: MissingSchemaError: Schema hasn't been registered for model "Category".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\connection.js:1218:13)
+    at _getModelFromConn (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:569:15)
+    at addModelNamesToMap (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:496:17)
+    at _virtualPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:454:7)
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:42:12)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+---------------------------------------
+
+Time: Sun Sep 08 2024 13:31:35 GMT+0300 (שעון ישראל (קיץ))
+Message: Cannot populate path `categoryDetails` because it is not in your schema. Set the `strictPopulate` option to false to override.
+Stack: StrictPopulateError: Cannot populate path `categoryDetails` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:50:12)
+    at populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4516:21)
+    at _populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4476:5)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4448:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\model.js:4447:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2288:20)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:63)
+---------------------------------------
+
+Time: Sun Sep 08 2024 15:22:32 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 08 2024 15:23:56 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 08 2024 15:24:50 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 08 2024 15:27:07 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 08 2024 15:27:59 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 08 2024 15:28:31 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 08 2024 15:31:07 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 08 2024 15:31:51 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 12:12:26 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 12:38:34 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 12:39:36 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 12:41:39 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 12:42:08 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 12:47:05 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 12:52:37 GMT+0300 (שעון ישראל (קיץ))
+Message: Cannot read properties of undefined (reading 'message')
+Stack: TypeError: Cannot read properties of undefined (reading 'message')
+    at TransactionService.addTransactions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\src\4-services\transaction-service.ts:15:49)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\src\5-controllers\transaction-controller.ts:34:63
+    at Generator.next (<anonymous>)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\src\5-controllers\transaction-controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\src\5-controllers\transaction-controller.ts:4:12)
+    at addTransaction (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\src\5-controllers\transaction-controller.ts:41:16)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\express\lib\router\route.js:114:3)
+---------------------------------------
+
+Time: Mon Sep 09 2024 12:52:47 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 12:53:02 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 13:02:59 GMT+0300 (שעון ישראל (קיץ))
+Message: something went wrong
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 13:03:37 GMT+0300 (שעון ישראל (קיץ))
+Message: TransactionModel validation failed: amount: missing amount
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 13:04:27 GMT+0300 (שעון ישראל (קיץ))
+Message: TransactionModel validation failed: date: missing date
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 13:05:54 GMT+0300 (שעון ישראל (קיץ))
+Message: TransactionModel validation failed: date: missing date
+Stack: ValidationError: TransactionModel validation failed: date: missing date
+    at model.Document.invalidate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\document.js:3306:32)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\document.js:3067:17
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1388:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+---------------------------------------
+
+Time: Mon Sep 09 2024 13:06:18 GMT+0300 (שעון ישראל (קיץ))
+Message: TransactionModel validation failed: amount: missing amount
+Stack: ValidationError: TransactionModel validation failed: amount: missing amount
+    at model.Document.invalidate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\document.js:3306:32)
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\document.js:3067:17
+    at C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1388:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+---------------------------------------
+
+Time: Mon Sep 09 2024 13:06:46 GMT+0300 (שעון ישראל (קיץ))
+Message: TransactionModel validation failed: amount: missing amount
+Stack: undefined
+---------------------------------------
+
