@@ -21,6 +21,7 @@ class TransactionsController {
         this.router.delete("/transactions/:_id", this.deleteTransaction);
         this.router.put("/transactions/:_id", this.updateTransaction);
         this.router.get("/transactions-by-category/:_id", this.getByCategory);
+        this.router.get("/category-name/:_id", this.getCategoryName);
     }
 
     private async getAllTransaction(request: Request, response: Response, next: NextFunction) {
@@ -78,6 +79,16 @@ class TransactionsController {
         catch (err: any) { next(err); }
     }
 
+
+    private async getCategoryName(request: Request, response: Response, next: NextFunction) {
+        try {
+            const category =request.params._id
+          const categoryName= await transactionService.getCategoryName(category)
+          const planeName = categoryName.name
+            response.status(StatusCode.OK).send(planeName);
+        }
+        catch (err: any) { next(err); }
+    }
 
 
 

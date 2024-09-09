@@ -5,6 +5,7 @@ import {
   TransactionModel,
 } from "../3-models/transaction-model";
 import { ObjectId } from "mongoose";
+import { CategoryModel } from "../3-models/category-model";
 
 class TransactionService {
   public getAllTransactions() {
@@ -40,7 +41,10 @@ class TransactionService {
   public async getByCategory(category: string) {
     return await TransactionModel.find({ category }).exec();
   }
-            
+         
+  public async getCategoryName(_id:string){
+    return await CategoryModel.findById(_id).select('name -_id').exec()
+  }
 
 }
 

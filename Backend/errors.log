@@ -934,3 +934,33 @@ Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f15c" (typ
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
 ---------------------------------------
 
+Time: Mon Sep 09 2024 15:47:43 GMT+0300 (שעון ישראל (קיץ))
+Message: FieldPath cannot be constructed with empty string
+Stack: MongoServerError: FieldPath cannot be constructed with empty string
+    at Connection.sendCommand (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cmap\connection.ts:525:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Connection.command (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cmap\connection.ts:608:22)
+    at async Server.command (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\sdam\server.ts:326:16)
+    at async FindOperation.execute (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\operations\find.ts:108:12)
+    at async executeOperation (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\operations\execute_operation.ts:196:12)
+    at async FindCursor._initialize (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cursor\find_cursor.ts:79:22)
+    at async FindCursor.[kInit] (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:657:21)
+    at async next (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:763:7)
+    at async FindCursor.next (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:401:12)
+---------------------------------------
+
+Time: Mon Sep 09 2024 15:47:46 GMT+0300 (שעון ישראל (קיץ))
+Message: FieldPath cannot be constructed with empty string
+Stack: MongoServerError: FieldPath cannot be constructed with empty string
+    at Connection.sendCommand (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cmap\connection.ts:525:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Connection.command (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cmap\connection.ts:608:22)
+    at async Server.command (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\sdam\server.ts:326:16)
+    at async FindOperation.execute (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\operations\find.ts:108:12)
+    at async executeOperation (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\operations\execute_operation.ts:196:12)
+    at async FindCursor._initialize (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cursor\find_cursor.ts:79:22)
+    at async FindCursor.[kInit] (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:657:21)
+    at async next (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:763:7)
+    at async FindCursor.next (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:401:12)
+---------------------------------------
+
