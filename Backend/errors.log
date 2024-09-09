@@ -450,3 +450,487 @@ Message: TransactionModel validation failed: amount: missing amount
 Stack: undefined
 ---------------------------------------
 
+Time: Mon Sep 09 2024 13:49:13 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOneAndUpdate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:3292:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 13:53:11 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOneAndUpdate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:3292:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 13:55:21 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 13:55:31 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:03:59 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:04:30 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:04:58 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058c" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:07:12 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f15c" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f15c" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:14:48 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:15:41 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:16:36 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:18:50 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOneAndUpdate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:3292:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:19:12 GMT+0300 (שעון ישראל (קיץ))
+Message: undefined
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:20:03 GMT+0300 (שעון ישראל (קיץ))
+Message: undefined
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:21:19 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:21:45 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:21:53 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:24:01 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:24:25 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:24:41 GMT+0300 (שעון ישראל (קיץ))
+Message: undefined
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:25:06 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOneAndUpdate (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:3292:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:26:04 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:34:11 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:34:29 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:35:08 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:35:55 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:36:06 GMT+0300 (שעון ישראל (קיץ))
+Message: undefined
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:36:07 GMT+0300 (שעון ישראל (קיץ))
+Message: undefined
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:37:12 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._find (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2233:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:39:31 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:40:08 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:40:40 GMT+0300 (שעון ישראל (קיץ))
+Message: We couldn't find this transaction
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:40:42 GMT+0300 (שעון ישראל (קיץ))
+Message: We couldn't find this transaction
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:40:49 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f15c60" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f15c60" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:41:01 GMT+0300 (שעון ישראל (קיץ))
+Message: We couldn't find this transaction
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:44:40 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f15c6" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f15c6" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:45:04 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f15c6" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f15c6" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:46:18 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f15c60" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f15c60" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:46:21 GMT+0300 (שעון ישראל (קיץ))
+Message: We couldn't find this transaction
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:46:40 GMT+0300 (שעון ישראל (קיץ))
+Message: We couldn't find this transaction
+Stack: undefined
+---------------------------------------
+
+Time: Mon Sep 09 2024 14:46:43 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "66dd7706058cd23d4f15c" (type string) at path "_id" for model "TransactionModel"
+Stack: CastError: Cast to ObjectId failed for value "66dd7706058cd23d4f15c" (type string) at path "_id" for model "TransactionModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+

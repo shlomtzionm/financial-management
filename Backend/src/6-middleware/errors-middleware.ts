@@ -30,6 +30,11 @@ class ErrorsMiddleware {
 
         // Take error message: 
         const message = (status === StatusCode.InternalServerError && appConfig.isProduction) ? "Some error, please try again later." : err.message;
+       
+        if (err.name === 'CastError') {
+            // Specific handling for CastError
+             response.status(400).send( 'We couldnt find this transaction' );
+          }
 
         // Response the error:
         response.status(status).send(message);
