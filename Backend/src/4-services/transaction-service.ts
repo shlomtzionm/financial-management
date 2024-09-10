@@ -5,7 +5,7 @@ import {
   TransactionModel,
 } from "../3-models/transaction-model";
 import { ObjectId } from "mongoose";
-import { CategoryModel } from "../3-models/category-model";
+import { CategoryModel, ICategoryModel } from "../3-models/category-model";
 
 class TransactionService {
   public getAllTransactions() {
@@ -45,6 +45,18 @@ class TransactionService {
   public async getCategoryName(_id:string){
     return await CategoryModel.findById(_id).select('name -_id').exec()
   }
+
+  public addCategory(category: ICategoryModel) {
+    
+    const err = category.validateSync();
+    if (err) {console.log(err.message);
+     throw new ValidationError(err.message);}
+
+    return category.save();
+  }
+
+
+
 
 }
 

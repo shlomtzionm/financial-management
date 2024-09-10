@@ -3,6 +3,7 @@ import { transactionService } from "../4-services/transaction-service";
 import { TransactionModel } from "../3-models/transaction-model";
 import { StatusCode } from "../3-models/enums";
 import mongoose from "mongoose";
+import { CategoryModel } from "../3-models/category-model";
 
 class TransactionsController {
 
@@ -18,6 +19,7 @@ class TransactionsController {
     private registerRoutes(): void {
         this.router.get("/transactions", this.getAllTransaction);
         this.router.post("/transactions", this.addTransaction);
+        this.router.post("/categories", this.addCategory);
         this.router.delete("/transactions/:_id", this.deleteTransaction);
         this.router.put("/transactions/:_id", this.updateTransaction);
         this.router.get("/transactions-by-category/:_id", this.getByCategory);
@@ -91,7 +93,14 @@ class TransactionsController {
     }
 
 
-
+    private async addCategory(request: Request, response: Response, next: NextFunction) {
+        try {
+            const category = new CategoryModel(request.body);
+            const addedCategory= await transactionService.addCategory(category);
+            response.status(StatusCode.Created).json(addedCategory);
+        }
+        catch (err: any) { next(err); }
+    }
 
 
 }

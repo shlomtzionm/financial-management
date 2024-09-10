@@ -964,3 +964,8 @@ Stack: MongoServerError: FieldPath cannot be constructed with empty string
     at async FindCursor.next (C:\Users\User\Desktop\shlomtzion\‏‏01 - MEAN Stack Template (1) - עותק\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:401:12)
 ---------------------------------------
 
+Time: Tue Sep 10 2024 14:11:55 GMT+0300 (שעון ישראל (קיץ))
+Message: TransactionModel validation failed: category: missing category, description: missing description, amount: missing amount, date: missing date
+Stack: undefined
+---------------------------------------
+
