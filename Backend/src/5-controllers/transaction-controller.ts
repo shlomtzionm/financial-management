@@ -86,8 +86,7 @@ class TransactionsController {
         try {
             const category =request.params._id
           const categoryName= await transactionService.getCategoryName(category)
-          const planeName = categoryName.name
-            response.status(StatusCode.OK).send(planeName);
+            response.status(StatusCode.OK).send(categoryName);
         }
         catch (err: any) { next(err); }
     }

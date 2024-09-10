@@ -974,3 +974,13 @@ Message: Route /api/transaction/ not found.
 Stack: undefined
 ---------------------------------------
 
+Time: Tue Sep 10 2024 19:58:54 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Sep 10 2024 20:05:46 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+

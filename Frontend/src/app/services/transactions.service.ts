@@ -20,7 +20,7 @@ export class transactionsService {
 
     
     public async getCategoryName(category:string) {
-        const observable = this.http.get<categoryModel[]>(appConfig.categoriesUrl+category);
+        const observable = this.http.get<categoryModel>(appConfig.categoriesUrl+category);
         const data = await firstValueFrom(observable);
         return data;
     }

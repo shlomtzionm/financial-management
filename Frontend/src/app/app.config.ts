@@ -11,6 +11,6 @@ export const appConfig = {
         provideHttpClient()
     ],
     transactionUrl: "http://localhost:4000/api/transactions/",
-    categoriesUrl: "http://localhost:4000/api/categories/",
+    categoriesUrl: "http://localhost:4000/api/category-name/",
 
 };
