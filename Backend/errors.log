@@ -969,3 +969,8 @@ Message: TransactionModel validation failed: category: missing category, descrip
 Stack: undefined
 ---------------------------------------
 
+Time: Tue Sep 10 2024 15:10:23 GMT+0300 (שעון ישראל (קיץ))
+Message: Route /api/transaction/ not found.
+Stack: undefined
+---------------------------------------
+

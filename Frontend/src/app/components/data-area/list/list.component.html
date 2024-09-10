@@ -1,1 +1,11 @@
-<p>list works!</p>
+<div class="container">
+
+<div *ngFor="let t of transactions" class="transactionCard">
+  <p>{{ t.date }}</p>
+  <p>{{ t.description }}</p>
+  <p>{{ t.amount }}</p>
+  <p>{{ t.category }}</p>
+</div>
+
+
+</div>

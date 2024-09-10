@@ -1,4 +1,4 @@
-import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
+import {  provideZoneChangeDetection } from '@angular/core';
 import { provideRouter } from '@angular/router';
 
 import { routes } from './app.routes';
@@ -10,5 +10,7 @@ export const appConfig = {
         provideRouter(routes),
         provideHttpClient()
     ],
-    ___url: "http://localhost:4000/api/___/"
+    transactionUrl: "http://localhost:4000/api/transactions/",
+    categoriesUrl: "http://localhost:4000/api/categories/",
+
 };

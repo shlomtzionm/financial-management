@@ -1,0 +1,12 @@
+.transactionCard{
+    display: flex;
+    background-color: white;
+border: 1px solid whitesmoke;
+font-size: medium;
+font-weight: 400;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+}
