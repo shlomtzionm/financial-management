@@ -1,11 +1,27 @@
-<div class="container">
+<table class="table table-striped myTable">
+<thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col" (click)="onSortDate()"><button>Date</button></th>
+    <th scope="col" (click)="onSortAmount()"><button>Amount</button></th>
+    <th scope="col">Description</th>
+    <th scope="col">Category</th>
+  </tr>
+</thead>
+<tbody>
+ @for (t of transactions;track i; let i = $index){
+<tr>
+<th scope="row">{{i + 1}}</th>
 
-<div *ngFor="let t of transactions" class="transactionCard">
-  <p>{{ t.date }}</p>
-  <p>{{ t.description }}</p>
-  <p>{{ t.amount }}</p>
-  <p>{{ t.category }}</p>
-</div>
+<td>{{t.date}}</td>
+<td>{{t.amount}}</td>
+<td>{{t.description}}</td>
+<td>{{t.category}}</td>
+</tr>
 
+ }
+  
 
-</div>
+</tbody>
+
+</table>

@@ -1,5 +1,5 @@
 html, body {
     height: 100%;
     text-align: center;
-    background-image: linear-gradient(gray, white);
+    background-color: rgb(240, 234, 234); 
 }

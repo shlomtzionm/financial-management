@@ -1,12 +1,24 @@
-.transactionCard{
-    display: flex;
-    background-color: white;
-border: 1px solid whitesmoke;
-font-size: medium;
-font-weight: 400;
+
+.myTable {
+  width: 60%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
 }
 
-.container{
-    width: 80%;
-    margin-left: auto;
+button{
+  background: none; /* Removes the background color */
+  border: none; /* Removes the border */
+  padding: 0; /* Removes any default padding */
+  margin: 0; /* Removes any default margin */
+  font: inherit; /* Inherits font properties from the parent */
+  color: inherit; /* Inherits text color from the parent */
+  cursor: pointer; /* Shows a pointer cursor on hover */
+  text-align: left; /* Aligns text to the left (optional) */
+  box-shadow: none; /* Removes any shadow */
+  outline: none; /* Removes the outline for keyboard navigation (optional) */
+  display: inline; /* Makes the button inline (optional) */
+}
+
+button:active{
+  color: rgb(133, 82, 167);
 }
