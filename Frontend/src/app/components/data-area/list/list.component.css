@@ -4,7 +4,7 @@
   box-shadow: 4px 4px 10px;
   border-radius: 10px;       /* Rounded corners */
   border-collapse: collapse;
-  overflow: hidden;          /* Ensure the border stays within the rounded corners */
+  overflow: auto;          /* Ensure the border stays within the rounded corners */
 margin-top: 8px;
 }
 
@@ -53,3 +53,4 @@ input[type="text"]:focus {
   border-bottom: 1px solid #ccc;
 
 }
+
