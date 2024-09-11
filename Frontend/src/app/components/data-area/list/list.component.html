@@ -1,3 +1,10 @@
+    
+    <span class="inputContainer">
+    <input (ngModelChange)="search($event)" type="text" placeholder="search" [(ngModel)]="searchValue" />
+    <button>
+      <mat-icon aria-hidden="false" fontIcon="search" class="searchBtn"></mat-icon>
+    </button>
+  </span>
 <table class="table table-striped myTable">
 <thead>
   <tr>

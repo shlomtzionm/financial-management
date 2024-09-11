@@ -1,5 +1,7 @@
 html, body {
     height: 100%;
     text-align: center;
-    background-color: rgb(240, 234, 234); 
+    background-color: rgb(247, 247, 247); 
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

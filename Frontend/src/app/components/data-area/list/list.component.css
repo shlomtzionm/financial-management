@@ -1,9 +1,18 @@
-
 .myTable {
-  width: 60%;
+  width: 80%;
   margin: auto;
-  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 4px 10px;
+  border-radius: 10px;       /* Rounded corners */
+  border-collapse: collapse;
+  overflow: hidden;          /* Ensure the border stays within the rounded corners */
+margin-top: 8px;
 }
+
+.myTable th, .myTable td {
+  border: none;  /* No internal borders */
+  padding: 10px; /* Optional padding for a clean look */
+}
+
 
 button{
   background: none; /* Removes the background color */
@@ -21,4 +30,26 @@ button{
 
 button:active{
   color: rgb(133, 82, 167);
+}
+
+
+input[type="text"] {
+  margin-bottom: 8px;
+  width: 60%;
+  padding: 4px;
+ border: none;
+  font-size: 16px;
+  background-color: transparent;
+
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+
+.inputContainer{
+  border: none;
+  border-bottom: 1px solid #ccc;
+
 }
