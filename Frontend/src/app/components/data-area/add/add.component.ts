@@ -28,7 +28,9 @@ public async ngOnInit(){
     const today = new Date();
     this.currentDate = today.toISOString().split('T')[0];
   } catch (error:any) {
-    alert(error.message)
+    alert("something went wrong")
+    
+    
   }
 }
 
@@ -38,7 +40,8 @@ public async send(){
     alert("You added a transaction")
     this.router.navigateByUrl("/list")
   } catch (error:any) {
-    alert(error.message)
+    alert("something went wrong")
+    
   }
 }
 

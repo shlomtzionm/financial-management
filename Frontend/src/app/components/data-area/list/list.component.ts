@@ -1,14 +1,15 @@
 import { Component, OnInit } from "@angular/core";
 import { TransactionModel } from "../../../models/transaction-model";
 import { CommonModule } from "@angular/common";
-import { FormsModule } from '@angular/forms';
-import { MatIconModule } from '@angular/material/icon';
+import { FormsModule } from "@angular/forms";
+import { MatIconModule } from "@angular/material/icon";
 import { transactionsService } from "../../../services/transactions.service";
+import { EditMenuComponent } from "../edit-menu/edit-menu.component";
 
 @Component({
   selector: "app-list",
   standalone: true,
-  imports: [CommonModule, FormsModule, MatIconModule],
+  imports: [CommonModule, FormsModule, MatIconModule, EditMenuComponent],
   templateUrl: "./list.component.html",
   styleUrls: ["./list.component.css"],
 })
@@ -27,7 +28,7 @@ export class ListComponent implements OnInit {
       this.originalTransactions = [...this.transactions];
       await this.replaceCategoryName();
     } catch (error: any) {
-      alert(error.message);
+      alert("something went wrong");
     }
   }
 
@@ -44,35 +45,37 @@ export class ListComponent implements OnInit {
   }
 
   public onSortDate() {
-    this.transactions.sort((a, b) =>
-      this.isStartDate === "arrow_downward"
-        ? new Date(a.date).getTime() - new Date(b.date).getTime()
-        : new Date(b.date).getTime() - new Date(a.date).getTime()
-    );
+    this.transactions.sort((a, b) => (this.isStartDate === "arrow_downward" ? new Date(a.date).getTime() - new Date(b.date).getTime() : new Date(b.date).getTime() - new Date(a.date).getTime()));
     this.isStartDate = this.isStartDate === "arrow_downward" ? "arrow_upward" : "arrow_downward";
   }
 
   public onSortAmount() {
-    this.transactions.sort((a, b) =>
-      this.isStartAmount
-        ? a.amount - b.amount
-        : b.amount - a.amount
-    );
+    this.transactions.sort((a, b) => (this.isStartAmount ? a.amount - b.amount : b.amount - a.amount));
     this.isStartAmount = !this.isStartAmount;
   }
 
   public search(value: string) {
     if (value) {
-      this.transactions = this.originalTransactions.filter(t => {
+      this.transactions = this.originalTransactions.filter((t) => {
         const lowerCaseValue = value.toLowerCase();
-        return (
-          t.description.toLowerCase().includes(lowerCaseValue) ||
-          t.amount.toString().includes(lowerCaseValue) ||
-          new Date(t.date).toLocaleDateString().includes(lowerCaseValue)
-        );
+        return t.description.toLowerCase().includes(lowerCaseValue) || t.amount.toString().includes(lowerCaseValue) || new Date(t.date).toLocaleDateString().includes(lowerCaseValue);
       });
     } else {
       this.transactions = [...this.originalTransactions];
     }
+  }
+
+  public deleteTransaction(_id: string) {
+    try {
+      this.transactionsService.deleteTransaction(_id);
+ alert("delete successful")
+    } catch (error: any) {
+      alert("something went wrong");
+    }
+  }
+
+  onDataReceived(data:string){
+    console.log(data);
+    
   }
 }

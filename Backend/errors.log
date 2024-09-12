@@ -984,3 +984,153 @@ Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
 Stack: undefined
 ---------------------------------------
 
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:26 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:50:52 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:53:04 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:53:10 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:54:14 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:54:37 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 18:08:08 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: category: missing category, description: missing description
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 18:08:14 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: description: missing description
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 18:10:49 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: description: missing description
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 18:11:45 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: date: missing date
+Stack: undefined
+---------------------------------------
+

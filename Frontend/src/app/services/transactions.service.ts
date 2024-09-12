@@ -37,4 +37,9 @@ export class transactionsService {
         const data = await firstValueFrom(observable);
         return data;
     }
+
+    public async deleteTransaction(_id:string) {
+        const observable = this.http.delete(appConfig.transactionUrl+_id);
+        const data = await firstValueFrom(observable);
+    }
 }

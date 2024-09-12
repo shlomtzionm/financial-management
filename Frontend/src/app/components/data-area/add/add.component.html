@@ -1,22 +1,22 @@
 <p>Add A Transaction</p>
 
 
-<form (submit)="send()">
+<form (submit)="send()" ngNativeValidate>
 
     <!-- <label>Select Category</label> -->
-    <select name="category" [(ngModel)]="transaction.category">
+    <select name="category" [(ngModel)]="transaction.category" required>
         <option *ngFor="let c of categories" [value]="c._id">{{c.name}}</option>
 
     </select>
 
     <!-- <label>Date</label> -->
-    <input [defaultValue]="currentDate" type="date"  name="date" [(ngModel)]="transaction.date"/>
+    <input [defaultValue]="currentDate" type="date"  name="date" [(ngModel)]="transaction.date" />
 
     <!-- <label>Amount</label> -->
-    <input placeholder="Amount" type="number" name="amount" [(ngModel)]="transaction.amount"/>
+    <input placeholder="Amount" type="number" name="amount" [(ngModel)]="transaction.amount" required/>
 
     <!-- <label>Description</label> -->
-    <input placeholder="Description" type="text" name="description" [(ngModel)]="transaction.description"/>
+    <input placeholder="Description" type="text" name="description" [(ngModel)]="transaction.description" required/>
 
     
 <button>Add</button>
