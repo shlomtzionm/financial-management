@@ -1,18 +1,28 @@
+.tableContainer{
+  border-radius: 15px;
+  border: 10px solid #141E46;
+  background-color: #141E46 ;
+width: 80%;
+margin: auto;
+}
+
+
+
+
 .myTable {
-  width: 80%;
+  width: 99.9%;
   margin: auto;
-  box-shadow: 4px 4px 10px;
-  border-radius: 10px;       /* Rounded corners */
+  border-radius: 50px;
   border-collapse: collapse;
   overflow: auto;          /* Ensure the border stays within the rounded corners */
-margin-top: 8px;
+padding: 8px 2px;
 }
 
 .myTable th, .myTable td {
   border: none;  /* No internal borders */
   padding: 10px; /* Optional padding for a clean look */
-}
 
+}
 
 button{
   background: none; /* Removes the background color */
@@ -29,7 +39,7 @@ button{
 }
 
 button:active{
-  color: rgb(133, 82, 167);
+  color: #8DECB4;
 }
 
 

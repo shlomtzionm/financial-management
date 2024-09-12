@@ -1,1 +1,23 @@
-<p>add works!</p>
+<p>Add A Transaction</p>
+
+
+<form (submit)="send()">
+
+    <!-- <label>Select Category</label> -->
+    <select name="category" [(ngModel)]="transaction.category">
+        <option *ngFor="let c of categories" [value]="c._id">{{c.name}}</option>
+
+    </select>
+
+    <!-- <label>Date</label> -->
+    <input [defaultValue]="currentDate" type="date"  name="date" [(ngModel)]="transaction.date"/>
+
+    <!-- <label>Amount</label> -->
+    <input placeholder="Amount" type="number" name="amount" [(ngModel)]="transaction.amount"/>
+
+    <!-- <label>Description</label> -->
+    <input placeholder="Description" type="text" name="description" [(ngModel)]="transaction.description"/>
+
+    
+<button>Add</button>
+</form>

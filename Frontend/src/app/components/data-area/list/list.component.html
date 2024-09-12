@@ -1,37 +1,38 @@
-    
-    <span class="inputContainer">
-    <input (ngModelChange)="search($event)" type="text" placeholder="search" [(ngModel)]="searchValue" />
-    <button>
-      <mat-icon aria-hidden="false" fontIcon="search" class="searchBtn"></mat-icon>
-    </button>
-  </span>
+<span class="inputContainer">
+  <input
+    (ngModelChange)="search($event)"
+    type="text"
+    placeholder="search"
+    [(ngModel)]="searchValue"
+  />
+  <mat-icon aria-hidden="false" fontIcon="search" class="searchBtn"></mat-icon>
+</span>
 
- 
-<table class="table table-striped myTable">
-<thead>
-  <tr>
-    <th scope="col">#</th>
-    <th scope="col" (click)="onSortDate()"><button>Date</button></th>
-    <th scope="col" (click)="onSortAmount()"><button>Amount</button></th>
-    <th scope="col">Description</th>
-    <th scope="col">Category</th>
-  </tr>
-</thead>
-<tbody>
- @for (t of transactions;track i; let i = $index){
-<tr>
-<th scope="row">{{i + 1}}</th>
-
-<td>{{t.date}}</td>
-<td>{{t.amount}}</td>
-<td>{{t.description}}</td>
-<td>{{t.category}}</td>
-</tr>
-
- }
-  
-
-</tbody>
-
-</table>
-
+<div class="tableContainer">
+  <table class="table table-striped myTable">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col" (click)="onSortDate()">
+          <button>Date</button>
+          <mat-icon aria-hidden="false" [fontIcon]="isStartDate"></mat-icon>
+        </th>
+        <th scope="col" (click)="onSortAmount()">
+          <button>Amount</button>
+          <mat-icon aria-hidden="false" [fontIcon]="isStartAmount ? 'arrow_upward' : 'arrow_downward'"></mat-icon>
+        </th>
+        <th scope="col">Description</th>
+        <th scope="col">Category</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let t of transactions; let i = index">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ t.date }}</td>
+        <td>{{ t.amount }}</td>
+        <td>{{ t.description }}</td>
+        <td>{{ t.category }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

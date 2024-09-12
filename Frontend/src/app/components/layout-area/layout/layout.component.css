@@ -1,6 +1,8 @@
 .menu{
-    background-color: rgb(94, 219, 144);
-color: aliceblue;
+    background-color: #8DECB4;
+color: #141E46;
+box-shadow:1px 1px 25px rgba(87, 117, 97, 0.705) ;
+margin-bottom: 80px;
 }
 
 h1{
