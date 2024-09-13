@@ -1,8 +1,8 @@
 .menu{
-    background-color: #8DECB4;
+    background-color: #FF9209;
 color: #141E46;
 box-shadow:1px 1px 25px rgba(87, 117, 97, 0.705) ;
-margin-bottom: 80px;
+margin-bottom: 50px;
 }
 
 h1{
@@ -10,6 +10,3 @@ h1{
     padding-bottom: 7px;
 }
 
-.myMenu{
-color: white;
-}

@@ -4,13 +4,14 @@ form {
     flex-direction: column;
     width: fit-content;
     border-radius: 15px;
-    border: 10px solid #141E46; /* Light blue border */
-    background-color: #F5F5F5; /* Light grey background */
+    border: 6px solid #141E46; 
+    background-color: #ffffff; 
     margin: auto;
-    padding: 10px;
+    padding: 8px;
     justify-content: center;
     align-items: stretch;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 4px 4px 15px rgba(69, 71, 128, 0.621); /* Subtle shadow for depth */
+  margin-bottom: 20px;
   }
   
   /* Button Styling */
@@ -29,37 +30,16 @@ form {
   }
   
   button:hover {
-    background-color: rgb(127, 255, 144); /* Darker blue on hover */
+    background-color: #FF9209; /* Darker blue on hover */
   }
   
   button:active {
-    background-color: rgb(109, 255, 129); /* Even darker blue when active */
-  }
-  
-  /* Input Styling */
-  input, select {
-    margin-bottom: 12px;
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #141E46; /* Light blue border */
-    border-radius: 5px; /* Slightly rounded corners */
-    font-size: 16px;
-    background-color: #FFF; /* White background */
-    color: #333; /* Dark text color */
-  }
-  
-  input:focus, select:focus {
-    border-color: rgb(127, 255, 144); /* Change border color on focus */
-    outline: none;
-  }
-  
-  /* Input Container Styling */
-  .inputContainer {
-    width: 100%;
-    margin-bottom: 12px;
+    background-color: #FF9209; /* Even darker blue when active */
   }
   
 
+  
+  
   p{
     font-size:medium;
     font-weight: 800;

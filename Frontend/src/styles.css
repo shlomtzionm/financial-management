@@ -3,17 +3,8 @@ html, body {
     height: 100%;
     text-align: center;
     background-color: rgb(247, 247, 247); 
-    margin: auto;
+    /* margin: auto; */
     justify-content: center;
     align-items: center;
 }
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-:root {
-    --mat-primary: #333;
-    --mat-accent: #666;
-    --mat-background: #f0f0f0;
-    --mat-foreground: #333;
-    --mat-typography: 'Open Sans', sans-serif;
-  }
