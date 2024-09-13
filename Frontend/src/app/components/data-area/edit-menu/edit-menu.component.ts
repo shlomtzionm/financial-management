@@ -1,23 +1,24 @@
-import { Component, EventEmitter, Output, output } from '@angular/core';
-import { MatMenuModule } from '@angular/material/menu';
-import { MatButtonModule } from '@angular/material/button';
-import { MatIcon } from '@angular/material/icon';
-
+import { Component, Input } from "@angular/core";
+import { MatMenuModule } from "@angular/material/menu";
+import { MatButtonModule } from "@angular/material/button";
+import { MatIcon } from "@angular/material/icon";
 
 @Component({
-  selector: 'app-edit-menu',
+  selector: "app-edit-menu",
   standalone: true,
-  imports: [MatMenuModule, MatButtonModule,MatIcon],
-  templateUrl: './edit-menu.component.html',
-  styleUrl: './edit-menu.component.css',
-
-  
+  imports: [MatMenuModule, MatButtonModule, MatIcon],
+  templateUrl: "./edit-menu.component.html",
+  styleUrl: "./edit-menu.component.css",
 })
 export class EditMenuComponent {
-  
-  @Output() dataEmitter = new EventEmitter<string>();
+  @Input() deleteTransaction: (_id: string) => void;
+  @Input() _id: string;
 
-  sendData(event:Event) {
-    this.dataEmitter.emit();
+  public  triggerDelete() {
+    try {
+      this.deleteTransaction(this._id);
+    } catch (error: any) {
+      console.log(error);
+    }
   }
 }

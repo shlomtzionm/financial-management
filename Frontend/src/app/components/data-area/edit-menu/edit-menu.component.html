@@ -2,8 +2,8 @@
   <mat-icon>more_vert</mat-icon>
 </button>
 <mat-menu #menu="matMenu">
-  <button mat-menu-item>
-    <mat-icon (click)="(sendData($event))">delete</mat-icon>
+  <button (click)="triggerDelete()" mat-menu-item>
+    <mat-icon>delete</mat-icon>
     <span>delete</span>
   </button>
   <button mat-menu-item>

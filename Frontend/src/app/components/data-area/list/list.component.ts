@@ -65,17 +65,15 @@ export class ListComponent implements OnInit {
     }
   }
 
-  public deleteTransaction(_id: string) {
+  public deleteTransaction = async (_id: string) => {
     try {
-      this.transactionsService.deleteTransaction(_id);
- alert("delete successful")
+        await this.transactionsService.deleteTransaction(_id);
+        this.transactions = this.transactions.filter((t) => t._id !== _id);
+
+      alert("delete successful");
     } catch (error: any) {
+      console.log(error);
       alert("something went wrong");
     }
-  }
-
-  onDataReceived(data:string){
-    console.log(data);
-    
-  }
+  };
 }

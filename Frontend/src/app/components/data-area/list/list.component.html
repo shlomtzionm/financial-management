@@ -33,7 +33,7 @@
         <td>{{ t.amount }}</td>
         <td>{{ t.description }}</td>
         <td>{{ t.category }}</td>
-        <td><button><app-edit-menu (dataEmitter)="onDataReceived($event)"></app-edit-menu></button></td>
+        <td><app-edit-menu [deleteTransaction]="deleteTransaction" [_id]="t._id"></app-edit-menu></td>
       </tr>
     </tbody>
   </table>

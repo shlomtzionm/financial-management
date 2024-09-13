@@ -4,7 +4,7 @@ import {
   style,
   transition,
   trigger
-} from "./chunk-6VFZ53QA.js";
+} from "./chunk-IBFIGYCE.js";
 import {
   BidiModule,
   DOWN_ARROW,

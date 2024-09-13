@@ -38,8 +38,16 @@ export class transactionsService {
         return data;
     }
 
-    public async deleteTransaction(_id:string) {
-        const observable = this.http.delete(appConfig.transactionUrl+_id);
-        const data = await firstValueFrom(observable);
+    public async deleteTransaction(_id:string):Promise<void> {
+        try {
+         
+        const observable = this.http.delete<void>(appConfig.transactionUrl+_id);
+        await firstValueFrom(observable);
+      
+        } catch (error:any) {
+            console.log(error);
+            throw error
+            
+        }
     }
 }
