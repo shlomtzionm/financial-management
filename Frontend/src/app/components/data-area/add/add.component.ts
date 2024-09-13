@@ -1,17 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { categoryModel } from '../../../models/category-model';
 import { transactionsService } from '../../../services/transactions.service';
 import { CommonModule } from '@angular/common';
 import { TransactionModel } from '../../../models/transaction-model';
 import { Router } from '@angular/router';
+import {MatSelectModule} from '@angular/material/select';
+import {provideNativeDateAdapter} from '@angular/material/core';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatIconModule} from '@angular/material/icon';
+import {MatInputModule} from '@angular/material/input';
 
 @Component({
   selector: 'app-add',
   standalone: true,
-  imports: [FormsModule,CommonModule],
+  imports: [MatIconModule,MatDatepickerModule,FormsModule,CommonModule,MatFormFieldModule, MatInputModule, MatSelectModule],
   templateUrl: './add.component.html',
-  styleUrl: './add.component.css'
+  styleUrl: './add.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  providers: [provideNativeDateAdapter()],
 })
 export class AddComponent implements OnInit {
 

@@ -2,13 +2,14 @@
 form {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: fit-content;
     border-radius: 15px;
     border: 10px solid #141E46; /* Light blue border */
     background-color: #F5F5F5; /* Light grey background */
     margin: auto;
     padding: 10px;
-    align-items: center;
+    justify-content: center;
+    align-items: stretch;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   }
   
@@ -66,5 +67,9 @@ form {
     color: #141E46;
   }
 
+  .mat-form-field{
+    background-color: #F5F5F5;
+    color: black;
+  }
 
   
