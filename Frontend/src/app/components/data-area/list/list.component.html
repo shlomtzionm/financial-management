@@ -33,7 +33,7 @@
         <td>{{ t.amount }}</td>
         <td>{{ t.description }}</td>
         <td>{{ t.category }}</td>
-        <td><app-edit-menu [deleteTransaction]="deleteTransaction" [_id]="t._id"></app-edit-menu></td>
+        <td><app-action-menu [updateTransaction]="updateTransaction" [deleteTransaction]="deleteTransaction" [transaction]="t"></app-action-menu></td>
       </tr>
     </tbody>
   </table>

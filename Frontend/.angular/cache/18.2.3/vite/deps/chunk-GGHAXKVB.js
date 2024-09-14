@@ -13,7 +13,7 @@ import {
   getRtlScrollAxisType,
   hasModifierKey,
   supportsScrollBehavior
-} from "./chunk-EZ4GZGQU.js";
+} from "./chunk-NYGVAD2C.js";
 import {
   DOCUMENT,
   Location
@@ -5243,18 +5243,22 @@ var FullscreenOverlayContainer = _FullscreenOverlayContainer;
 
 export {
   SelectionModel,
+  CdkScrollable,
   ViewportRuler,
   CdkScrollableModule,
   ComponentPortal,
   TemplatePortal,
+  BasePortalOutlet,
   DomPortalOutlet,
   CdkPortalOutlet,
   PortalModule,
   OverlayConfig,
+  OverlayContainer,
+  OverlayRef,
   FlexibleConnectedPositionStrategy,
   Overlay,
   CdkOverlayOrigin,
   CdkConnectedOverlay,
   OverlayModule
 };
-//# sourceMappingURL=chunk-FU5J4YCX.js.map
+//# sourceMappingURL=chunk-GGHAXKVB.js.map

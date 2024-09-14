@@ -1,11 +1,12 @@
 
 
+
 <form (submit)="send()" ngNativeValidate>
     <p>Add A Transaction</p>
 
     <mat-form-field >
         <mat-label>Category</mat-label>
-        <mat-select name="category" [(ngModel)]="transaction.category" required>
+        <mat-select name="category" [(ngModel)]="data.transaction.category" required>
           <mat-option *ngFor="let c of categories" [value]="c._id">{{c.name}}</mat-option>
         </mat-select>
         
@@ -14,7 +15,7 @@
     
     <mat-form-field  class="example-full-width" >
         <mat-label>Choose a date</mat-label>
-        <input required name="date" [(ngModel)]="transaction.date" matInput [matDatepicker]="picker">
+        <input required name="date" [(ngModel)]="data.transaction.date" matInput [matDatepicker]="picker">
     
         <mat-datepicker-toggle matIconSuffix [for]="picker">
           <mat-icon matDatepickerToggleIcon  aria-hidden="false" fontIcon="keyboard_arrow_down"></mat-icon>
@@ -26,7 +27,7 @@
 
     <mat-form-field >
         <mat-label >Amount</mat-label>
-        <input required  matInput type="number" class="example-right-align" placeholder="0" name="amount" [(ngModel)]="transaction.amount" />
+        <input required  matInput type="number" class="example-right-align" placeholder="0" name="amount" [(ngModel)]="data.transaction.amount" />
         <span matTextPrefix></span>
       </mat-form-field>
 
@@ -34,12 +35,18 @@
 
     <mat-form-field >
         <mat-label>Description</mat-label>
-        <input required matInput name="description" [(ngModel)]="transaction.description" >
+        <input required matInput name="description" [(ngModel)]="data.transaction.description" >
     
     
       </mat-form-field>
     
-<button>Add</button>
+
+      <mat-dialog-actions>
+        <button mat-button>Update</button>
+
+      </mat-dialog-actions>
 </form>
+
+
 
 

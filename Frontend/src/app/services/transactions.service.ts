@@ -48,6 +48,15 @@ export class transactionsService {
             console.log(error);
             throw error
             
-        }
+        }   
     }
+
+
+
+    public async updateTransaction(_id:string,transaction:TransactionModel) {
+        const observable = this.http.put<void>(appConfig.transactionUrl+_id,transaction);
+      const date =  await firstValueFrom(observable);
+      return date
+    }
+
 }

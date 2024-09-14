@@ -10,8 +10,8 @@ form {
     padding: 8px;
     justify-content: center;
     align-items: stretch;
-    box-shadow: 4px 4px 15px rgba(69, 71, 128, 0.621); /* Subtle shadow for depth */
-  margin-bottom: 20px;
+    box-shadow: 4px 4px 15px rgba(69, 71, 128, 0.621); 
+    margin-bottom: 20px;
   }
   
   /* Button Styling */

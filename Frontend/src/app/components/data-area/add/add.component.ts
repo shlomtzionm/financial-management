@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { categoryModel } from '../../../models/category-model';
 import { transactionsService } from '../../../services/transactions.service';
@@ -11,6 +11,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-add',
@@ -30,13 +31,19 @@ public transaction = new TransactionModel()
 
 public currentDate:string
 
+private _snackBar = inject(MatSnackBar);
+
+openSnackBar(message: string, action: string) {
+  this._snackBar.open(message, action);
+}
+
 public async ngOnInit(){
   try {
     this.categories = await this.transactionsServices.getCategories()
     const today = new Date();
     this.currentDate = today.toISOString().split('T')[0];
   } catch (error:any) {
-    alert("something went wrong")
+    this.openSnackBar("Something went wrong", "X")
     
     
   }
@@ -45,10 +52,10 @@ public async ngOnInit(){
 public async send(){
   try {
     await this.transactionsServices.addTransaction(this.transaction)
-    alert("You added a transaction")
+    this.openSnackBar("You added a transaction", "X")
     this.router.navigateByUrl("/list")
   } catch (error:any) {
-    alert("something went wrong")
+    this.openSnackBar("Something went wrong", "X")
     
   }
 }

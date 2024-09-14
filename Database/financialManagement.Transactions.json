@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "66e1c61e1eea6451414b23fa"
+  },
+  "date": "02-10-2024",
+  "amount": 212,
+  "description": "100",
+  "category": "66e07a570616de762ed2daf4"
+},
+{
+  "_id": {
+    "$oid": "66e1dda84f64d25a5c482740"
+  },
+  "date": "12-12-2024",
+  "amount": 400,
+  "description": "bla bla",
+  "category": "66e07a570616de762ed2daf4"
+},
+{
+  "_id": {
+    "$oid": "66e3032342b3265fd3f22e0d"
+  },
+  "date": "2024-09-21",
+  "amount": 3,
+  "description": "monopole",
+  "category": "66e07a570616de762ed2daf4"
+},
+{
+  "_id": {
+    "$oid": "66e46498adbf54168258aa51"
+  },
+  "date": {
+    "$date": "2024-09-25T00:00:00.000Z"
+  },
+  "amount": 2,
+  "description": "111",
+  "category": "66e07a570616de762ed2daf4"
+},
+{
+  "_id": {
+    "$oid": "66e464d1adbf54168258aa59"
+  },
+  "date": {
+    "$date": "2024-09-25T00:00:00.000Z"
+  },
+  "amount": 6,
+  "description": "monopole",
+  "category": "66e07a570616de762ed2daf4"
+},
+{
+  "_id": {
+    "$oid": "66e48b69adbf54168258aad0"
+  },
+  "date": {
+    "$date": "2024-09-24T00:00:00.000Z"
+  },
+  "amount": 1,
+  "description": "iyuuy",
+  "category": "66e07a570616de762ed2daf4"
+}]
