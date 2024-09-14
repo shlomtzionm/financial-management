@@ -1,7 +1,6 @@
 .tableContainer{
   border-radius: 15px;
-  border: 6px solid #141E46;
-  background-color: #141E46 ;
+  border: 2px solid #141E46;
 width: 80%;
 margin: auto;
 }
@@ -13,8 +12,8 @@ margin: auto;
   width: 99%;
   margin: auto;
   /* border-radius: 50px; */
-  /* border-collapse: collapse; */
-  /* overflow: auto;          Ensure the border stays within the rounded corners */
+  border-collapse: collapse;
+  overflow: hidden;       
 padding: 8px 2px;
 }
 

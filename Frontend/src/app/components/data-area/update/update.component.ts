@@ -48,7 +48,7 @@ export class UpdateComponent {
   public async ngOnInit() {
     try {
       this.categories = await this.transactionsServices.getCategories();
-      this.update;
+      // this.update;
     } catch (error: any) {
       this.openSnackBar("Something went wrong", "X");
     }
@@ -61,7 +61,7 @@ export class UpdateComponent {
   onNoClick(): void {
     this.dialogRef.close();
   }
-  
+
   public async send(){
     try {
       const updatedTransaction = {
