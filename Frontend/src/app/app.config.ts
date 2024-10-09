@@ -15,5 +15,7 @@ export const appConfig = {
     ],
     transactionUrl: "http://localhost:4000/api/transactions/",
     categoriesUrl: "http://localhost:4000/api/categories/",
+    ImageUrl: "http://localhost:4000/api/transactions/images/"
+
 
 };

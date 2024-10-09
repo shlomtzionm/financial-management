@@ -6,11 +6,16 @@ export interface ITransactionModel extends Document {
     amount: number;
     description: string;
     category: string;
+    imageName:string
 }
 
 // Define the Transaction Schema
 const TransactionSchema = new Schema<ITransactionModel>({
-    date: {
+    
+    imageName:{
+        type:String
+    }
+    ,date: {
         type: Date,
         required: [true, "missing date"]
     },

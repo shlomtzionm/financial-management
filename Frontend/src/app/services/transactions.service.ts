@@ -33,7 +33,14 @@ export class transactionsService {
     }
 
     public async addTransaction(transaction:TransactionModel) {
-        const observable = this.http.post<TransactionModel>(appConfig.transactionUrl,transaction);
+        const myFormData = new FormData()
+
+        myFormData.append("date",transaction.date.toString())
+        myFormData.append("amount",transaction.amount.toString())
+        myFormData.append("category",transaction.category)
+        myFormData.append("description",transaction.description)
+        myFormData.append("image",transaction.image)
+        const observable = this.http.post<TransactionModel>(appConfig.transactionUrl,myFormData);
         const data = await firstValueFrom(observable);
         return data;
     }
@@ -54,8 +61,19 @@ export class transactionsService {
 
 
     public async updateTransaction(_id:string,transaction:TransactionModel) {
-        const observable = this.http.put<void>(appConfig.transactionUrl+_id,transaction);
+
+        const myFormData = new FormData()
+
+        myFormData.append("_id",transaction._id)
+        myFormData.append("amount",transaction.amount.toString())
+        myFormData.append("category",transaction.category)
+        myFormData.append("date",transaction.date.toString())
+        myFormData.append("description",transaction.description)
+        myFormData.append("image",transaction.image)
+        const observable = this.http.put<TransactionModel>(appConfig.transactionUrl+_id,myFormData);
       const date =  await firstValueFrom(observable);
+console.log(date);
+      
       return date
     }
 

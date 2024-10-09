@@ -38,7 +38,6 @@ import { MatNativeDateModule } from "@angular/material/core";
 export class UpdateComponent {
   public constructor(private transactionsServices: transactionsService) {}
   public categories: categoryModel[];
-
   private _snackBar = inject(MatSnackBar);
 
   openSnackBar(message: string, action: string) {
@@ -48,7 +47,6 @@ export class UpdateComponent {
   public async ngOnInit() {
     try {
       this.categories = await this.transactionsServices.getCategories();
-      // this.update;
     } catch (error: any) {
       this.openSnackBar("Something went wrong", "X");
     }
@@ -57,6 +55,8 @@ export class UpdateComponent {
   readonly dialogRef = inject(MatDialogRef<UpdateComponent>);
   readonly data = inject<DialogData>(MAT_DIALOG_DATA);
   readonly update = model(this.data.transaction);
+public updatedTransaction = {...this.data.transaction}
+
 
   onNoClick(): void {
     this.dialogRef.close();
@@ -64,18 +64,18 @@ export class UpdateComponent {
 
   public async send(){
     try {
-      const updatedTransaction = {
-        ...this.data.transaction,
-        category: this.data.transaction.category,
-        date: this.data.transaction.date,
-        amount: this.data.transaction.amount,
-        description: this.data.transaction.description
-      };
-      this.dialogRef.close(updatedTransaction);
+     
+      this.dialogRef.close(this.updatedTransaction);
     } catch (error:any) {
       console.log(error);
       
       this.openSnackBar("Something went wrong", "X")
     }
+  }
+
+  public setImage(event: Event) {
+    const input = event.target as HTMLInputElement;
+    const image = input.files[0];
+    this.updatedTransaction.image = image;
   }
 }

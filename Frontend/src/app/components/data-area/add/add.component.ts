@@ -51,6 +51,8 @@ public async ngOnInit(){
 
 public async send(){
   try {
+    console.log(this.transaction);
+    
     await this.transactionsServices.addTransaction(this.transaction)
     this.openSnackBar("You added a transaction", "X")
     this.router.navigateByUrl("/list")
@@ -58,6 +60,15 @@ public async send(){
     this.openSnackBar("Something went wrong", "X")
     
   }
+}
+
+public setImage(event: Event) {
+  const input = event.target as HTMLInputElement;
+  const image = input.files[0];
+  console.log(image);
+  
+  this.transaction.image = image
+   
 }
 
 

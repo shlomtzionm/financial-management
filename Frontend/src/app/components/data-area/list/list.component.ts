@@ -6,6 +6,7 @@ import { MatIconModule } from "@angular/material/icon";
 import { transactionsService } from "../../../services/transactions.service";
 import {MatSnackBar} from '@angular/material/snack-bar';
 import { ActionMenuComponent } from "../action-menu/action-menu.component";
+import { appConfig } from "../../../app.config";
 
 
 @Component({
@@ -39,6 +40,10 @@ export class ListComponent implements OnInit {
     } catch (error: any) {
       this.openSnackBar("Something went wrong", "X")
     }
+  }
+
+  public getImageUrl(imageName: string) {
+    return appConfig.ImageUrl + imageName;
   }
 
   private async replaceCategoryName() {
@@ -87,15 +92,16 @@ export class ListComponent implements OnInit {
   };
 
 
-  public  updateTransaction= async(_id:string, transaction:TransactionModel)=>{
-try {
-  await this.transactionsService.updateTransaction(_id,transaction)
-  this.transactions = this.transactions.filter(t=>t._id !== _id)
-  this.transactions.push(transaction)
-this.openSnackBar("well done", "X")
-} catch (error:any) {
-  
+
+  public updateTransaction= async(_id:string, transaction: TransactionModel)=> {
+   const updatedTransaction:TransactionModel= await this.transactionsService.updateTransaction(_id, transaction)
+    const index = this.transactions.findIndex(t => t._id === _id);
+    if (index !== -1) {
+  updatedTransaction.category =(await this.transactionsService.getOneCategory(updatedTransaction.category)).name
+      this.transactions[index] = updatedTransaction;
+      this.openSnackBar("well done", "X")
+    } else {
   this.openSnackBar("something went wrong", "X")
-}
+    }
   }
 }

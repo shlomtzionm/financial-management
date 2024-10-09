@@ -23,6 +23,7 @@
         </th>
         <th scope="col">Description</th>
         <th scope="col">Category</th>
+        <th scope="col">Image</th>
         <th scope="col"></th>
       </tr>
     </thead>
@@ -33,6 +34,7 @@
         <td>{{ t.amount }}</td>
         <td>{{ t.description }}</td>
         <td>{{ t.category }}</td>
+        <img [src]="getImageUrl(t.imageName)"/>
         <td><app-action-menu [updateTransaction]="updateTransaction" [deleteTransaction]="deleteTransaction" [transaction]="t"></app-action-menu></td>
       </tr>
     </tbody>

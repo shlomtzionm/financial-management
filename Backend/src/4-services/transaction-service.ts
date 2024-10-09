@@ -22,13 +22,10 @@ class TransactionService {
   }
 
   public async updateTransactions(_id: string, transaction: ITransactionModel) {
-    const existingTransaction = await TransactionModel.findById(_id).exec();
+    const err = transaction.validateSync()
+    if(err) throw new ValidationError(err.message)
 
-    if (!existingTransaction) {
-      throw new ValidationError("We couldn't find this transaction");
-    }
-
-    return await TransactionModel.findByIdAndUpdate(_id, transaction, { new: true, runValidators: true }).exec();
+    return await TransactionModel.findByIdAndUpdate(_id,{$set:transaction},{new:true});
   }
 
   public async getByCategory(category: string) {
