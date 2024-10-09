@@ -30,12 +30,23 @@ import {
   hasModifierKey,
   isFakeMousedownFromScreenReader,
   isFakeTouchstartFromScreenReader,
+<<<<<<< HEAD
   normalizePassiveListenerOptions
 } from "./chunk-NYGVAD2C.js";
 import {
   CommonModule,
   DOCUMENT
 } from "./chunk-3GXVZPYI.js";
+=======
+  normalizePassiveListenerOptions,
+  supportsScrollBehavior
+} from "./chunk-F5NJE44G.js";
+import {
+  CommonModule,
+  DOCUMENT,
+  Location
+} from "./chunk-ZKHXD2DU.js";
+>>>>>>> 3b63604196baa38a0883bba005b8549bccd59832
 import {
   ApplicationRef,
   ChangeDetectionStrategy,
@@ -95,7 +106,7 @@ import {
   ɵɵrestoreView,
   ɵɵtemplate,
   ɵɵviewQuery
-} from "./chunk-VZD2ANCY.js";
+} from "./chunk-HFPFSTFV.js";
 import {
   Subject,
   Subscription,
@@ -109,8 +120,14 @@ import {
   startWith,
   switchMap,
   take,
+<<<<<<< HEAD
   takeUntil
 } from "./chunk-2CVCC5YH.js";
+=======
+  takeUntil,
+  takeWhile
+} from "./chunk-ABIIXPMV.js";
+>>>>>>> 3b63604196baa38a0883bba005b8549bccd59832
 
 // node_modules/@angular/material/fesm2022/menu.mjs
 var _c0 = ["mat-menu-item", ""];

@@ -77,4 +77,10 @@ console.log(date);
       return date
     }
 
+
+    public async getCategoriesSum(){
+        const observable = this.http.get(appConfig.categoriesSumUrl)
+        const data = await firstValueFrom(observable)
+        return data
+    }
 }
