@@ -41,9 +41,13 @@ class TransactionService {
   public async getByCategory(category: string) {
     return await TransactionModel.find({ category }).exec();
   }
-         
-  public async getCategoryName(_id:string){
-    return await CategoryModel.findById(_id).select('name -_id').exec()
+  
+  public async getCategories(){
+    return await CategoryModel.find().exec()
+  }
+
+  public async getOneCategory(_id:string){
+    return await CategoryModel.findById(_id).exec()
   }
 
   public addCategory(category: ICategoryModel) {
