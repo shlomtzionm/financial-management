@@ -1,5 +1,4 @@
-import mongoose, { Document, ObjectId, Schema, model } from 'mongoose';
-import { CategoryModel } from './category-model'; // Import Category Model
+import { Document, Schema, model } from 'mongoose';
 
 // Define the Transaction Interface
 export interface ITransactionModel extends Document {

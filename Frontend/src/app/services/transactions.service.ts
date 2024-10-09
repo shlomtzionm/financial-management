@@ -37,4 +37,10 @@ export class transactionsService {
         const data = await firstValueFrom(observable);
         return data;
     }
+
+    public async getCategoriesSum(){
+        const observable = this.http.get(appConfig.categoriesSumUrl)
+        const data = await firstValueFrom(observable)
+        return data
+    }
 }

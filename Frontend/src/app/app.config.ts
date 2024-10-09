@@ -12,5 +12,6 @@ export const appConfig = {
     ],
     transactionUrl: "http://localhost:4000/api/transactions/",
     categoriesUrl: "http://localhost:4000/api/categories/",
+    categoriesSumUrl: "http://localhost:4000/api/categories-sum/",
 
 };
