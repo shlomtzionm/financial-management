@@ -4,6 +4,12 @@ import { RouterOutlet } from '@angular/router';
 import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
 import { transactionsService } from '../../../services/transactions.service';
 
+interface ChartDataPoint {
+  name: string;
+  y: number;
+  color?: string; // Optional color property
+}
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -15,10 +21,14 @@ export class HomeComponent implements OnInit {
   public constructor(private transactionService: transactionsService) {}
 
   public sumData: { _id: string; totalAmount: number }[] = [];
-  public sumDataForChart: { name: string; y: number }[] = [];
+  public sumDataForChart: ChartDataPoint[] = [];
   
+  // Example color palette
+  private colorPalette = ["#141E46", "#0a32cf"];
+
   public chartOptions: any = {
     animationEnabled: true,
+    backgroundColor: "transparent",
     title: {
       text: "Category Expense Distribution"
     },
@@ -26,11 +36,11 @@ export class HomeComponent implements OnInit {
       type: "doughnut",
       yValueFormatString: "#,###.##'%'",
       indexLabel: "{name}",
-      dataPoints: this.sumDataForChart
+      dataPoints: this.sumDataForChart // Will be populated later
     }]
   };
 
-  public showChart = false; // Flag to control chart visibility
+  public showChart = false; // Flag for chart visibility
 
   async ngOnInit() {
     try {
@@ -42,15 +52,14 @@ export class HomeComponent implements OnInit {
 
       this.sumDataForChart = this.sumData.map((D, index) => {
         const percentage = (D.totalAmount / totalAmount) * 100;
-        return { name: categories[index].name, y: percentage };
+        return { name: categories[index].name, y: percentage, color: this.colorPalette[index % this.colorPalette.length] };
       });
 
       this.updateChartOptions();
 
-      // Use setTimeout to delay showing the chart
       setTimeout(() => {
-        this.showChart = true; // Set to true after a delay
-      }, 1000); // 1000 ms delay
+        this.showChart = true;
+      }, 1000);
 
     } catch (error: any) {
       console.error('Error fetching category sums or details:', error);
@@ -58,6 +67,10 @@ export class HomeComponent implements OnInit {
   }
 
   private updateChartOptions() {
-    this.chartOptions.data[0].dataPoints = this.sumDataForChart;
+    this.chartOptions.data[0].dataPoints = this.sumDataForChart.map(dp => ({
+      name: dp.name,
+      y: dp.y,
+      color: dp.color // Now TypeScript recognizes this property
+    }));
   }
 }
