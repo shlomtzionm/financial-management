@@ -39,7 +39,7 @@ export class transactionsService {
     }
 
     public async getCategoriesSum(){
-        const observable = this.http.get(appConfig.categoriesSumUrl)
+        const observable = this.http.get<{_id:string,totalAmount:number}[]>(appConfig.categoriesSumUrl)
         const data = await firstValueFrom(observable)
         return data
     }

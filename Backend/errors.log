@@ -1166,3 +1166,205 @@ Stack: CastError: Cast to ObjectId failed for value "sum" (type string) at path 
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
 ---------------------------------------
 
+Time: Thu Oct 10 2024 10:29:37 GMT+0300 (שעון ישראל (קיץ))
+Message: Route /api/category-name/66dd75af058cd23d4f15c600 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Oct 10 2024 10:29:39 GMT+0300 (שעון ישראל (קיץ))
+Message: Route /api/category-name/66dd75af058cd23d4f15c600 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Oct 10 2024 10:48:16 GMT+0300 (שעון ישראל (קיץ))
+Message: Route /api/category/66dd75af058cd23d4f15c600 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Oct 10 2024 10:48:17 GMT+0300 (שעון ישראל (קיץ))
+Message: Route /api/category/66dd75af058cd23d4f15c600 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:02:23 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:02:33 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:05:18 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:05:21 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:09:02 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:09:57 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:12:28 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:12:44 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:12:49 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:14:02 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:16:28 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:31:16 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Thu Oct 10 2024 11:31:48 GMT+0300 (שעון ישראל (קיץ))
+Message: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
