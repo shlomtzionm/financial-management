@@ -62,14 +62,7 @@ public async send(){
   }
 }
 
-public setImage(event: Event) {
-  const input = event.target as HTMLInputElement;
-  const image = input.files[0];
-  console.log(image);
-  
-  this.transaction.image = image
-   
-}
+
 
 
 }

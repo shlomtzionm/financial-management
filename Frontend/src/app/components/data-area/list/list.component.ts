@@ -42,9 +42,7 @@ export class ListComponent implements OnInit {
     }
   }
 
-  public getImageUrl(imageName: string) {
-    return appConfig.ImageUrl + imageName;
-  }
+
 
   private async replaceCategoryName() {
     try {

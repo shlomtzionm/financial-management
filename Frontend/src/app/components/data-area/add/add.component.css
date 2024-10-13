@@ -3,20 +3,18 @@ form {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    border-radius: 15px;
-    border: 2px solid #141E46; 
-    background-color: #ffffff; 
-    margin: auto;
+    border: none; 
+    border-left: 2px solid #412e20; 
+    margin: 10% auto;
     padding: 8px;
     justify-content: center;
     align-items: stretch;
-    box-shadow: 4px 4px 15px rgba(69, 71, 128, 0.621); 
     margin-bottom: 20px;
   }
   
   /* Button Styling */
   button {
-    background: #141E46; /* Bright blue background */
+    background: #D8D2C2; /* Bright blue background */
     border: none;
     padding: 10px 20px;
     margin: 10px 0;
@@ -30,11 +28,11 @@ form {
   }
   
   button:hover {
-    background-color: #FF9209; /* Darker blue on hover */
+    background-color: #412e20; /* Darker blue on hover */
   }
   
   button:active {
-    background-color: #FF9209; /* Even darker blue when active */
+    background-color: #412e20; /* Even darker blue when active */
   }
   
 

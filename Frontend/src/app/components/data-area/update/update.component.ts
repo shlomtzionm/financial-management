@@ -73,9 +73,5 @@ public updatedTransaction = {...this.data.transaction}
     }
   }
 
-  public setImage(event: Event) {
-    const input = event.target as HTMLInputElement;
-    const image = input.files[0];
-    this.updatedTransaction.image = image;
-  }
+  
 }

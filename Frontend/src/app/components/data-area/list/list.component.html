@@ -34,7 +34,6 @@
         <td>{{ t.amount }}</td>
         <td>{{ t.description }}</td>
         <td>{{ t.category }}</td>
-        <img [src]="getImageUrl(t.imageName)"/>
         <td><app-action-menu [updateTransaction]="updateTransaction" [deleteTransaction]="deleteTransaction" [transaction]="t"></app-action-menu></td>
       </tr>
     </tbody>

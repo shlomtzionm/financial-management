@@ -1,53 +1,37 @@
+<form  (submit)="send()" ngNativeValidate>
+  <div class="UpdateForm">
+  <p >Add A Transaction</p>
 
+  <mat-form-field appearance="outline">
+    <mat-label>Category</mat-label>
+    <mat-select name="category" [(ngModel)]="updatedTransaction.category" required>
+      <mat-option *ngFor="let c of categories" [value]="c._id">{{ c.name }}</mat-option>
+    </mat-select>
+  </mat-form-field>
 
+  <mat-form-field  appearance="outline" class="example-full-width">
+    <mat-label>Choose a date</mat-label>
+    <input required name="date" [(ngModel)]="updatedTransaction.date" matInput [matDatepicker]="picker" />
 
-<form (submit)="send()" ngNativeValidate>
-    <p>Add A Transaction</p>
+    <mat-datepicker-toggle matIconSuffix [for]="picker">
+      <mat-icon matDatepickerToggleIcon aria-hidden="false" fontIcon="keyboard_arrow_down"></mat-icon>
+    </mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
 
-    <mat-form-field >
-        <mat-label>Category</mat-label>
-        <mat-select name="category" [(ngModel)]="updatedTransaction.category" required>
-          <mat-option *ngFor="let c of categories" [value]="c._id">{{c.name}}</mat-option>
-        </mat-select>
-        
-      </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Amount</mat-label>
+    <input required matInput type="number" class="example-right-align" placeholder="0" name="amount" [(ngModel)]="updatedTransaction.amount" />
+    <span matTextPrefix></span>
+  </mat-form-field>
 
-    
-    <mat-form-field  class="example-full-width" >
-        <mat-label>Choose a date</mat-label>
-        <input required name="date" [(ngModel)]="updatedTransaction.date" matInput [matDatepicker]="picker">
-    
-        <mat-datepicker-toggle matIconSuffix [for]="picker">
-          <mat-icon matDatepickerToggleIcon  aria-hidden="false" fontIcon="keyboard_arrow_down"></mat-icon>
-        </mat-datepicker-toggle>
-        <mat-datepicker #picker></mat-datepicker>
-      </mat-form-field>
-      
+  <mat-form-field appearance="outline">
+    <mat-label>Description</mat-label>
+    <input required matInput name="description" [(ngModel)]="updatedTransaction.description" />
+  </mat-form-field>
 
-
-    <mat-form-field >
-        <mat-label >Amount</mat-label>
-        <input required  matInput type="number" class="example-right-align" placeholder="0" name="amount" [(ngModel)]="updatedTransaction.amount" />
-        <span matTextPrefix></span>
-      </mat-form-field>
-
-
-
-    <mat-form-field >
-        <mat-label>Description</mat-label>
-        <input required matInput name="description" [(ngModel)]="updatedTransaction.description" >
-    
-    
-      </mat-form-field>
-      <label>image:</label> 
-      <input type="file" accept="image/*" name="image" [(ngModel)]="updatedTransaction.image" (change)="setImage($event)" />
-
-      <mat-dialog-actions>
-        <button mat-button>Update</button>
-
-      </mat-dialog-actions>
+  <mat-dialog-actions>
+    <button >Update</button>
+  </mat-dialog-actions>
+</div>
 </form>
-
-
-
-
