@@ -1,53 +1,65 @@
 /* Form Styling */
 form {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    border: none; 
-    border-left: 2px solid #412e20; 
-    margin: 10% auto;
-    padding: 8px;
-    justify-content: center;
-    align-items: stretch;
-    margin-bottom: 20px;
-  }
-  
-  /* Button Styling */
-  button {
-    background: #D8D2C2; /* Bright blue background */
-    border: none;
-    padding: 10px 20px;
-    margin: 10px 0;
-    font: inherit;
-    color: #FFF; /* White text color */
-    cursor: pointer;
-    border-radius: 5px; /* Slightly rounded corners */
-    font-size: 16px;
-    text-transform: uppercase; /* Uppercase text for emphasis */
-    transition: background-color 0.3s ease; /* Smooth transition effect */
-  }
-  
-  button:hover {
-    background-color: #412e20; /* Darker blue on hover */
-  }
-  
-  button:active {
-    background-color: #412e20; /* Even darker blue when active */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  border: none; 
+  border-left: 2px solid #412e20; 
+  margin: 10% auto; /* Centering */
+  padding: 8px;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
 
-  
-  
-  p{
-    font-size:medium;
-    font-weight: 800;
-    font-family:  'Arial Narrow Bold', sans-serif;
-    color: #141E46;
-  }
+/* Button Styling */
+button {
+  background: #D8D2C2; /* Bright background */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font: inherit;
+  color: #FFF; /* White text */
+  cursor: pointer;
+  border-radius: 5px; 
+  font-size: 16px;
+  text-transform: uppercase; 
+  transition: background-color 0.3s ease; 
+}
 
-  .mat-form-field{
-    background-color: #F5F5F5;
-    color: black;
-  }
+button:hover {
+  background-color: #6B4E37; /* Lighter color on hover */
+}
 
-  
+button:active {
+  background-color: #412e20; /* Darker color when active */
+}
+
+/* Text Styling */
+p {
+  font-size: medium;
+  font-weight: 800;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  color: #141E46;
+}
+
+.mat-form-field {
+  background-color: #F5F5F5;
+  color: black;
+}
+
+.addPage {
+  display: flex;
+  flex-direction: row-reverse;
+  width: fit-content;
+  margin: auto;
+}
+
+.pig {
+  position: relative;
+  left: -25px;
+  top: 80px;
+  width:200px;
+}
+
+

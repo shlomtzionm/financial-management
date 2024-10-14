@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
   public sumDataForChart: ChartDataPoint[] = [];
   
   // Example color palette
-  private colorPalette = ["#141E46", "#0a32cf"];
+  private colorPalette = ["#FFB569", "#DE8439", "#BC5308","#78290F"];
 
   public chartOptions: any = {
     animationEnabled: true,
