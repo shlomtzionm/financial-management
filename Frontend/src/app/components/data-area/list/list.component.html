@@ -9,7 +9,7 @@
 </span>
 
 <div class="tableContainer">
-  <table class="table table-striped myTable">
+  <table class="table table-striped myTable rounded-3">
     <thead>
       <tr>
         <th scope="col">#</th>
@@ -23,15 +23,18 @@
         </th>
         <th scope="col">Description</th>
         <th scope="col">Category</th>
+        <th scope="col">Image</th>
+        <th scope="col"></th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let t of transactions; let i = index">
         <th scope="row">{{ i + 1 }}</th>
-        <td>{{ t.date }}</td>
+        <td>{{ t.date | date :'shortDate'}} </td>
         <td>{{ t.amount }}</td>
         <td>{{ t.description }}</td>
         <td>{{ t.category }}</td>
+        <td><app-action-menu [updateTransaction]="updateTransaction" [deleteTransaction]="deleteTransaction" [transaction]="t"></app-action-menu></td>
       </tr>
     </tbody>
   </table>

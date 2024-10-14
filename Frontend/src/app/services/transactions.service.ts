@@ -33,10 +33,50 @@ export class transactionsService {
     }
 
     public async addTransaction(transaction:TransactionModel) {
-        const observable = this.http.post<TransactionModel>(appConfig.transactionUrl,transaction);
+        const myFormData = new FormData()
+
+        myFormData.append("date",transaction.date.toString())
+        myFormData.append("amount",transaction.amount.toString())
+        myFormData.append("category",transaction.category)
+        myFormData.append("description",transaction.description)
+        myFormData.append("image",transaction.image)
+        const observable = this.http.post<TransactionModel>(appConfig.transactionUrl,myFormData);
         const data = await firstValueFrom(observable);
         return data;
     }
+
+    public async deleteTransaction(_id:string):Promise<void> {
+        try {
+         
+        const observable = this.http.delete<void>(appConfig.transactionUrl+_id);
+        await firstValueFrom(observable);
+      
+        } catch (error:any) {
+            console.log(error);
+            throw error
+            
+        }   
+    }
+
+
+
+    public async updateTransaction(_id:string,transaction:TransactionModel) {
+
+        const myFormData = new FormData()
+
+        myFormData.append("_id",transaction._id)
+        myFormData.append("amount",transaction.amount.toString())
+        myFormData.append("category",transaction.category)
+        myFormData.append("date",transaction.date.toString())
+        myFormData.append("description",transaction.description)
+        myFormData.append("image",transaction.image)
+        const observable = this.http.put<TransactionModel>(appConfig.transactionUrl+_id,myFormData);
+      const date =  await firstValueFrom(observable);
+console.log(date);
+      
+      return date
+    }
+
 
     public async getCategoriesSum(){
         const observable = this.http.get<{_id:string,totalAmount:number}[]>(appConfig.categoriesSumUrl)

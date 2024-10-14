@@ -984,6 +984,1994 @@ Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
 Stack: undefined
 ---------------------------------------
 
+<<<<<<< HEAD
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:20 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:39:26 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:41:02 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:50:52 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:53:04 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:53:10 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:54:14 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 17:54:37 GMT+0300 (Israel Daylight Time)
+Message: Route /api/categories/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 18:08:08 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: category: missing category, description: missing description
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 18:08:14 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: description: missing description
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 18:10:49 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: description: missing description
+Stack: undefined
+---------------------------------------
+
+Time: Thu Sep 12 2024 18:11:45 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: date: missing date
+Stack: undefined
+---------------------------------------
+
+Time: Sat Sep 14 2024 13:16:11 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: amount: missing amount
+Stack: undefined
+---------------------------------------
+
+Time: Sat Sep 14 2024 13:16:33 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: amount: missing amount
+Stack: undefined
+---------------------------------------
+
+Time: Sat Sep 14 2024 13:16:42 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: amount: missing amount
+Stack: undefined
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:19:09 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:20:51 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:20:56 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:21:01 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:21:18 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:21:57 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:21:57 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:22:14 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:22:14 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:22:17 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:22:17 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:22:21 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:22:21 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:23:21 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:23:21 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:24:06 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:24:06 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:24:13 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:24:13 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:24:14 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:24:14 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:24:19 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:24:19 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:24:32 GMT+0300 (Israel Daylight Time)
+Message: Validation failed: date: missing date
+Stack: ValidationError: Validation failed: date: missing date
+    at _done (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\helpers\updateValidators.js:228:19)
+    at C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\helpers\updateValidators.js:204:11
+    at schemaPath.doValidate.updateValidator (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\helpers\updateValidators.js:162:13)
+    at C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1388:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:25:27 GMT+0300 (Israel Daylight Time)
+Message: Validation failed: date: missing date
+Stack: ValidationError: Validation failed: date: missing date
+    at _done (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\helpers\updateValidators.js:228:19)
+    at C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\helpers\updateValidators.js:204:11
+    at schemaPath.doValidate.updateValidator (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\helpers\updateValidators.js:162:13)
+    at C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1388:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:26:25 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:28:29 GMT+0300 (Israel Daylight Time)
+Message: Validation failed: date: missing date
+Stack: ValidationError: Validation failed: date: missing date
+    at _done (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\helpers\updateValidators.js:228:19)
+    at C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\helpers\updateValidators.js:204:11
+    at schemaPath.doValidate.updateValidator (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\helpers\updateValidators.js:162:13)
+    at C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1388:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:29:00 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:32:31 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:32:35 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:32:47 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:34:58 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:45:50 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:47:09 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:47:12 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:47:14 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:47:28 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:47:32 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:49:24 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:50:34 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:50:34 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 22:57:24 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:05:04 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:05:56 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:06:35 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:06:37 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:06:42 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:06:57 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:07:11 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:07:16 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:07:38 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:07:49 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:08:30 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:08:45 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:08:53 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:09:00 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:09:05 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:09:11 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:09:18 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:09:24 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:09:41 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:09:44 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:09:53 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:10:03 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:10:09 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:11:45 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:12:05 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:12:26 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:12:30 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:12:31 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:12:33 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:12:34 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:12:40 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:12:54 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:13:02 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:13:20 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:13:33 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:13:36 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:26:47 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:18 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:19 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:20 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:22 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:23 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:27 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:30 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:33 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:45 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:49 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:52 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:55 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:28:59 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:29:02 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:29:08 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:29:12 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:29:14 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:29:17 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:43:49 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:43:54 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:51:35 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:51:47 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sat Sep 14 2024 23:51:55 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:11:42 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:11:48 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:29:18 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:34:28 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:34:34 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:34:39 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:34:56 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:35:23 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:35:26 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:35:28 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:35:32 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:35:44 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:35:55 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:35:58 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:36:00 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:36:57 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:38:21 GMT+0300 (Israel Daylight Time)
+Message: Route /api/transactions/WhatsApp%20Image%202024-07-20%20at%2012.34.12.jpeg not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:38:51 GMT+0300 (Israel Daylight Time)
+Message: Route /api/transactions/pic.jpeg not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:39:16 GMT+0300 (Israel Daylight Time)
+Message: Route /api/transactions/pic.jpeg not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:40:06 GMT+0300 (Israel Daylight Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:40:29 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:41:04 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:41:36 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:41:44 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:41:50 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:41:53 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 12:42:06 GMT+0300 (Israel Daylight Time)
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Sep 15 2024 13:02:19 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: description: missing description
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 15 2024 13:32:13 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: category: missing category, description: missing description, amount: missing amount, date: missing date
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 15 2024 13:33:30 GMT+0300 (Israel Daylight Time)
+Message: Route /api/transactions/66e5ed0a43cf93a1abe24693 not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 15 2024 13:33:35 GMT+0300 (Israel Daylight Time)
+Message: TransactionModel validation failed: description: missing description
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 15 2024 13:33:49 GMT+0300 (Israel Daylight Time)
+Message: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id'
+Stack: MongoServerError: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Connection.sendCommand (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\cmap\connection.ts:525:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Connection.command (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\cmap\connection.ts:608:22)
+    at async Server.command (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\sdam\server.ts:326:16)
+    at async FindOneAndUpdateOperation.executeCommand (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\operations\command.ts:155:12)
+    at async FindOneAndUpdateOperation.execute (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\operations\find_and_modify.ts:216:20)
+    at async executeOperation (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\operations\execute_operation.ts:196:12)
+    at async Collection.findOneAndUpdate (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\collection.ts:947:12)
+    at async model.Query._findOneAndUpdate (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:3348:13)
+    at async model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:63)
+---------------------------------------
+
+Time: Sun Sep 15 2024 13:34:08 GMT+0300 (Israel Daylight Time)
+Message: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id'
+Stack: MongoServerError: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Connection.sendCommand (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\cmap\connection.ts:525:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Connection.command (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\cmap\connection.ts:608:22)
+    at async Server.command (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\sdam\server.ts:326:16)
+    at async FindOneAndUpdateOperation.executeCommand (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\operations\command.ts:155:12)
+    at async FindOneAndUpdateOperation.execute (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\operations\find_and_modify.ts:216:20)
+    at async executeOperation (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\operations\execute_operation.ts:196:12)
+    at async Collection.findOneAndUpdate (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\collection.ts:947:12)
+    at async model.Query._findOneAndUpdate (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:3348:13)
+    at async model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:63)
+---------------------------------------
+
+Time: Sun Sep 15 2024 17:09:49 GMT+0300 (Israel Daylight Time)
+Message: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id'
+Stack: MongoServerError: Plan executor error during findAndModify :: caused by :: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Connection.sendCommand (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\cmap\connection.ts:525:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Connection.command (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\cmap\connection.ts:608:22)
+    at async Server.command (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\sdam\server.ts:326:16)
+    at async FindOneAndUpdateOperation.executeCommand (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\operations\command.ts:155:12)
+    at async FindOneAndUpdateOperation.execute (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\operations\find_and_modify.ts:216:20)
+    at async executeOperation (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\operations\execute_operation.ts:196:12)
+    at async Collection.findOneAndUpdate (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongodb\src\collection.ts:947:12)
+    at async model.Query._findOneAndUpdate (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:3348:13)
+    at async model.Query.exec (C:\Users\shlom\Desktop\financial-management\Backend\node_modules\mongoose\lib\query.js:4342:63)
+=======
 Time: Wed Oct 09 2024 14:30:24 GMT+0300 (שעון ישראל (קיץ))
 Message: Cast to ObjectId failed for value "sum" (type string) at path "_id" for model "CategoryModel"
 Stack: CastError: Cast to ObjectId failed for value "sum" (type string) at path "_id" for model "CategoryModel"
@@ -1164,6 +3152,7 @@ Stack: CastError: Cast to ObjectId failed for value "sum" (type string) at path 
     at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
     at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+>>>>>>> 3b63604196baa38a0883bba005b8549bccd59832
 ---------------------------------------
 
 Time: Thu Oct 10 2024 10:29:37 GMT+0300 (שעון ישראל (קיץ))

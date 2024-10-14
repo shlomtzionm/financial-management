@@ -1,0 +1,32 @@
+.UpdateForm{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10% auto;
+    padding: 8px;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #D8D2C2; /* Bright blue background */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font: inherit;
+    color: #FFF; /* White text color */
+    cursor: pointer;
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px;
+    text-transform: uppercase; /* Uppercase text for emphasis */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+  }
+
+  button:hover {
+    background-color: #412e20; /* Darker blue on hover */
+  }
+  
+  button:active {
+    background-color: #412e20; /* Even darker blue when active */
+  }

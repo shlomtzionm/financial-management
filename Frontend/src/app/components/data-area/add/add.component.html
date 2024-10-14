@@ -1,23 +1,46 @@
-<p>Add A Transaction</p>
 
 
-<form (submit)="send()">
+<form (submit)="send()" ngNativeValidate>
+    <p>Add A Transaction</p>
 
-    <!-- <label>Select Category</label> -->
-    <select name="category" [(ngModel)]="transaction.category">
-        <option *ngFor="let c of categories" [value]="c._id">{{c.name}}</option>
-
-    </select>
-
-    <!-- <label>Date</label> -->
-    <input [defaultValue]="currentDate" type="date"  name="date" [(ngModel)]="transaction.date"/>
-
-    <!-- <label>Amount</label> -->
-    <input placeholder="Amount" type="number" name="amount" [(ngModel)]="transaction.amount"/>
-
-    <!-- <label>Description</label> -->
-    <input placeholder="Description" type="text" name="description" [(ngModel)]="transaction.description"/>
+    <mat-form-field appearance="outline">
+        <mat-label>Category</mat-label>
+        <mat-select name="category" [(ngModel)]="transaction.category" required>
+          <mat-option *ngFor="let c of categories" [value]="c._id">{{c.name}}</mat-option>
+        </mat-select>
+        
+      </mat-form-field>
 
     
+    <mat-form-field appearance="outline" class="example-full-width" >
+        <mat-label>Choose a date</mat-label>
+        <input  required name="date" [(ngModel)]="transaction.date" matInput [matDatepicker]="picker">
+    
+        <mat-datepicker-toggle matIconSuffix [for]="picker">
+          <mat-icon matDatepickerToggleIcon  aria-hidden="false" fontIcon="keyboard_arrow_down"></mat-icon>
+        </mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      
+
+
+    <mat-form-field appearance="outline">
+        <mat-label >Amount</mat-label>
+        <input required  matInput type="number" class="example-right-align" placeholder="0" name="amount" [(ngModel)]="transaction.amount"  max=10/>
+        <span matTextPrefix></span>
+      </mat-form-field>
+
+
+
+    <mat-form-field appearance="outline">
+        <mat-label>Description</mat-label>
+        <input required matInput name="description" [(ngModel)]="transaction.description" maxlength=3>
+    
+    
+      </mat-form-field>
+      
+   
 <button>Add</button>
 </form>
+
+

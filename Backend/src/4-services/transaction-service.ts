@@ -43,6 +43,8 @@ class TransactionService {
     return await CategoryModel.findById(_id).exec();
   }
 
+
+
   public addCategory(category: ICategoryModel) {
     const err = category.validateSync();
     if (err) {

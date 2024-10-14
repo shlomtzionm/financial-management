@@ -1,0 +1,14 @@
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+  <mat-icon>more_vert</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+  <button (click)="triggerDelete()" mat-menu-item>
+    <mat-icon>delete</mat-icon>
+    <span>delete</span>
+  </button>
+  <button (click)="openDialog()" mat-menu-item>
+    <mat-icon>edit</mat-icon>
+    <span>edit</span>
+  </button>
+  
+</mat-menu>

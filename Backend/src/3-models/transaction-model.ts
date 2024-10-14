@@ -2,16 +2,21 @@ import { Document, Schema, model } from 'mongoose';
 
 // Define the Transaction Interface
 export interface ITransactionModel extends Document {
-    date: string;
+    date: Date;
     amount: number;
     description: string;
     category: string;
+    imageName:string
 }
 
 // Define the Transaction Schema
 const TransactionSchema = new Schema<ITransactionModel>({
-    date: {
-        type: String,
+    
+    imageName:{
+        type:String
+    }
+    ,date: {
+        type: Date,
         required: [true, "missing date"]
     },
     amount: {
