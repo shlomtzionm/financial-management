@@ -5,7 +5,7 @@ form {
   width: fit-content;
   border: none; 
   border-left: 2px solid #412e20; 
-  margin: 10% auto; /* Centering */
+  margin: 20% auto; /* Centering */
   padding: 8px;
   justify-content: center;
   align-items: stretch;
@@ -55,11 +55,9 @@ p {
   margin: auto;
 }
 
-.pig {
-  position: relative;
-  left: -25px;
-  top: 80px;
-  width:200px;
+
+
+
+.description{
+  height: 200px;
 }
-
-
