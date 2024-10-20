@@ -47,7 +47,7 @@ export class HomeComponent implements OnInit {
       this.sumData = await this.transactionService.getCategoriesSum();
       const totalAmount = this.sumData.reduce((sum, D) => sum + D.totalAmount, 0);
 
-      const categoryPromises = this.sumData.map(D => this.transactionService.getOneCategory(D._id));
+      const categoryPromises = this.sumData.map(D => this.transactionService.getCategoryName(D._id));
       const categories = await Promise.all(categoryPromises);
 
       this.sumDataForChart = this.sumData.map((D, index) => {
