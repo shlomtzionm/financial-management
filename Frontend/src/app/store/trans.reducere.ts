@@ -1,4 +1,6 @@
+import { createReducer, on, State } from "@ngrx/store";
 import { TransactionModel } from "../models/transaction-model";
+import { initTransactions } from "./trans.actions";
 
 export interface TransactionsState{
     transactions:TransactionModel[],
@@ -6,9 +8,17 @@ export interface TransactionsState{
     status: "pending" | "loading"  | "error" | "success"
 }
 
-export const initailState : TransactionsState = {
+export const initialState : TransactionsState = {
     transactions: [],
     error:null,
     status:"pending"
 }
 
+export const transactionsReducer = createReducer(
+    initialState,
+    
+    on(initTransactions, (state, {content})=>({
+        ...state,
+        transactions:content
+    } ))
+)

@@ -5,6 +5,7 @@ import { firstValueFrom } from "rxjs";
 import { TransactionModel } from "../models/transaction-model";
 import { categoryModel } from "../models/category-model";
 import { transactionsActions } from "../redux/store";
+import { Store } from "@ngrx/store";
 
 
 
@@ -12,7 +13,7 @@ import { transactionsActions } from "../redux/store";
   providedIn: "root",
 })
 export class transactionsService {
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private store :Store) {}
 
 
   public async getAllTransactions() {

@@ -6,7 +6,7 @@ import { MatIconModule } from "@angular/material/icon";
 import { transactionsService } from "../../../services/transactions.service";
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { ActionMenuComponent } from "../action-menu/action-menu.component";
-import { useSelector } from "react-redux";
+import { Store } from "@ngrx/store";
 
 
 @Component({
@@ -17,10 +17,15 @@ import { useSelector } from "react-redux";
   styleUrls: ["./list.component.css"],
 })
 export class ListComponent implements OnInit {
-  public transactionsFromRedux = useSelector<AppState, TransactionModel[]>(store => store.transactions);
-  public transactionsToDisplay: TransactionModel[] = [];
 
-  constructor(private transactionsService: transactionsService) {}
+
+
+  constructor(private transactionsService: transactionsService, private store: Store) {}
+
+  public allTransactions: TransactionModel[] = []
+
+
+  public transactionsToDisplay: TransactionModel[] = [];
 
   private _snackBar = inject(MatSnackBar);
 
@@ -31,7 +36,6 @@ export class ListComponent implements OnInit {
   async ngOnInit() {
     try {
       await this.transactionsService.getAllTransactions();
-      this.transactionsToDisplay = [...this.transactionsFromRedux];
     } catch (error: any) {
       this.openSnackBar("Something went wrong", "X");
     }
