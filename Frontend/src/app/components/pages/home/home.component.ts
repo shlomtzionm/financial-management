@@ -3,6 +3,10 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
 import { transactionsService } from '../../../services/transactions.service';
+import { NgModule } from '@angular/core';
+
+
+
 
 interface ChartDataPoint {
   name: string;
@@ -13,6 +17,7 @@ interface ChartDataPoint {
 @Component({
   selector: 'app-home',
   standalone: true,
+  
   imports: [CommonModule, RouterOutlet, CanvasJSAngularChartsModule],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']

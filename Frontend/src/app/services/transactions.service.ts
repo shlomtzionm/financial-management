@@ -4,7 +4,9 @@ import { appConfig } from "../app.config";
 import { firstValueFrom } from "rxjs";
 import { TransactionModel } from "../models/transaction-model";
 import { categoryModel } from "../models/category-model";
-import { store, transactionActions } from "../redux/store";
+import { transactionsActions } from "../redux/store";
+
+
 
 @Injectable({
   providedIn: "root",
@@ -12,11 +14,12 @@ import { store, transactionActions } from "../redux/store";
 export class transactionsService {
   constructor(private http: HttpClient) {}
 
+
   public async getAllTransactions() {
     const observable = this.http.get<TransactionModel[]>(appConfig.transactionUrl);
     const data = await firstValueFrom(observable);
-    const action = transactionActions.initTransactions(data);
-    store.dispatch(action);
+    const action = transactionsActions.initTransactions(data);
+    this.store.dispatch(action);
     return data;
   }
 
@@ -47,8 +50,6 @@ export class transactionsService {
   public async deleteTransaction(_id: string): Promise<void> {
     const observable = this.http.delete<void>(appConfig.transactionUrl + _id);
     await firstValueFrom(observable);
-    const action = transactionActions.deleteTransaction(_id);
-    store.dispatch(action);
   }
 
   public async updateTransaction(_id: string, transaction: TransactionModel) {
@@ -61,8 +62,7 @@ export class transactionsService {
     myFormData.append("image", transaction.image);
     const observable = this.http.put<TransactionModel>(appConfig.transactionUrl + _id, myFormData);
     const date = await firstValueFrom(observable);
-    const action = transactionActions.updateTransaction(date)
-    store.dispatch(action)
+
     return date;
   }
 

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import {MatMenuModule} from '@angular/material/menu';
-import {MatButtonModule} from '@angular/material/button';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MenuComponent } from "../../data-area/menu/menu.component";
 
@@ -10,8 +10,6 @@ import { MenuComponent } from "../../data-area/menu/menu.component";
   standalone: true,
   imports: [RouterModule, MatButtonModule, MatMenuModule, MatIconModule, MenuComponent],
   templateUrl: './layout.component.html',
-  styleUrl: './layout.component.css',
+  styleUrls: ['./layout.component.css'], // Fixed typo: styleUrl should be styleUrls
 })
-export class LayoutComponent {
-
-}
+export class LayoutComponent {}
