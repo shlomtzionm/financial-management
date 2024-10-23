@@ -4,9 +4,12 @@ import { CommonModule } from "@angular/common";
 import { FormsModule } from "@angular/forms";
 import { MatIconModule } from "@angular/material/icon";
 import { transactionsService } from "../../../services/transactions.service";
-import { MatSnackBar } from '@angular/material/snack-bar';
+import { MatSnackBar } from "@angular/material/snack-bar";
 import { ActionMenuComponent } from "../action-menu/action-menu.component";
-import { Store } from "@ngrx/store";
+import {  Store } from "@ngrx/store";
+import { Observable } from "rxjs";
+import { selectAllTransactions } from "../../../store/trans.selectores"; // Correct the import name
+import { AppState } from "../../../store/app.state";
 
 
 @Component({
@@ -17,27 +20,74 @@ import { Store } from "@ngrx/store";
   styleUrls: ["./list.component.css"],
 })
 export class ListComponent implements OnInit {
-
-
-
-  constructor(private transactionsService: transactionsService, private store: Store) {}
-
-  public allTransactions: TransactionModel[] = []
-
-
-  public transactionsToDisplay: TransactionModel[] = [];
+  public transactions$: Observable<TransactionModel[]>;
+  public transToDisplay: TransactionModel[] = [];
+  public isStartDate: string = "arrow_downward";
+  public isStartAmount: boolean = true;
+  public searchValue: string = "";
 
   private _snackBar = inject(MatSnackBar);
 
-  openSnackBar(message: string, action: string) {
-    this._snackBar.open(message, action);
+  constructor(private transactionsService: transactionsService, private store: Store<AppState>) {
+    this.transactions$ = this.store.select(selectAllTransactions);
   }
 
   async ngOnInit() {
     try {
       await this.transactionsService.getAllTransactions();
+      this.transactions$.subscribe(transactions => {
+        this.transToDisplay = transactions; // Initialize the display array
+        this.replaceCategoryNames();
+      });
     } catch (error: any) {
       this.openSnackBar("Something went wrong", "X");
+      console.log(error);
     }
+  }
+
+  private async replaceCategoryNames() {
+    try {
+      this.transToDisplay = await Promise.all(this.transToDisplay.map(async (t) => {
+        const categoryName = (await this.transactionsService.getCategoryName(t.category)).name;
+        return {
+          ...t,
+          category: categoryName,
+        };
+      }));
+    } catch (error: any) {
+      this.openSnackBar("Something went wrong", "X");
+      console.log(error);
+    }
+  }
+
+  public onSortDate() {
+    this.transToDisplay.sort((a, b) =>
+      this.isStartDate === "arrow_downward" ? new Date(a.date).getTime() - new Date(b.date).getTime() : new Date(b.date).getTime() - new Date(a.date).getTime()
+    );
+    this.isStartDate = this.isStartDate === "arrow_downward" ? "arrow_upward" : "arrow_downward";
+  }
+
+  public onSortAmount() {
+    this.transToDisplay.sort((a, b) => (this.isStartAmount ? a.amount - b.amount : b.amount - a.amount));
+    this.isStartAmount = !this.isStartAmount;
+  }
+
+  public async search(value: string) {
+    const lowerCaseValue = value.toLowerCase();
+    
+    this.transactions$.subscribe(transactions => {
+      this.transToDisplay = transactions.filter((t) => {
+        return (
+          t.description.toLowerCase().includes(lowerCaseValue) ||
+          t.amount.toString().includes(lowerCaseValue) ||
+          new Date(t.date).toLocaleDateString().includes(lowerCaseValue)
+        );
+      });
+    });
+    await this.replaceCategoryNames()
+  }
+
+  openSnackBar(message: string, action: string) {
+    this._snackBar.open(message, action);
   }
 }

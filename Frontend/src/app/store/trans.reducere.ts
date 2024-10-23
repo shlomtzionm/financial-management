@@ -19,6 +19,8 @@ export const transactionsReducer = createReducer(
     
     on(initTransactions, (state, {content})=>({
         ...state,
-        transactions:content
+        transactions:content,
+        error:null,
+        status:"success" as const,
     } ))
 )

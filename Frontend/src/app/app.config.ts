@@ -5,6 +5,7 @@ import { routes } from './app.routes';
 import { provideHttpClient } from '@angular/common/http';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideStore } from '@ngrx/store';
+import { transactionsReducer } from './store/trans.reducere';
 
 export const appConfig = {
 
@@ -13,7 +14,7 @@ export const appConfig = {
     provideRouter(routes),
     provideHttpClient(),
     provideAnimationsAsync(),
-    provideStore()
+    provideStore({ transactions: transactionsReducer }),
 ],
     transactionUrl: "http://localhost:4000/api/transactions/",
     categoriesUrl: "http://localhost:4000/api/categories/",

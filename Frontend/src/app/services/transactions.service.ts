@@ -4,8 +4,9 @@ import { appConfig } from "../app.config";
 import { firstValueFrom } from "rxjs";
 import { TransactionModel } from "../models/transaction-model";
 import { categoryModel } from "../models/category-model";
-import { transactionsActions } from "../redux/store";
+
 import { Store } from "@ngrx/store";
+import { initTransactions } from "../store/trans.actions";
 
 
 
@@ -19,8 +20,7 @@ export class transactionsService {
   public async getAllTransactions() {
     const observable = this.http.get<TransactionModel[]>(appConfig.transactionUrl);
     const data = await firstValueFrom(observable);
-    const action = transactionsActions.initTransactions(data);
-    this.store.dispatch(action);
+    this.store.dispatch(initTransactions({content:data}));
     return data;
   }
 
