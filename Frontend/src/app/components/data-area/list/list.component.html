@@ -8,7 +8,11 @@
   <mat-icon aria-hidden="false" fontIcon="search" class="searchBtn"></mat-icon>
 </span>
 
-<div class="tableContainer">
+<ng-container *ngIf="loading">
+  <!-- <mat-spinner></mat-spinner> -->
+</ng-container>
+
+<div class="tableContainer" *ngIf="!loading">
   <table class="table table-striped myTable rounded-3">
     <thead>
       <tr>

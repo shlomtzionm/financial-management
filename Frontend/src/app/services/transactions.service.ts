@@ -20,7 +20,7 @@ export class transactionsService {
   public async getAllTransactions() {
     const observable = this.http.get<TransactionModel[]>(appConfig.transactionUrl);
     const data = await firstValueFrom(observable);
-    this.store.dispatch(initTransactions({content:data}));
+  
     return data;
   }
 

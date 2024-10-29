@@ -10,6 +10,7 @@ import {  Store } from "@ngrx/store";
 import { Observable } from "rxjs";
 import { selectAllTransactions } from "../../../store/trans.selectores"; // Correct the import name
 import { AppState } from "../../../store/app.state";
+import { initTransactions } from "../../../store/trans.actions";
 
 
 @Component({
@@ -20,12 +21,14 @@ import { AppState } from "../../../store/app.state";
   styleUrls: ["./list.component.css"],
 })
 export class ListComponent implements OnInit {
+
   public transactions$: Observable<TransactionModel[]>;
   public transToDisplay: TransactionModel[] = [];
+
   public isStartDate: string = "arrow_downward";
   public isStartAmount: boolean = true;
   public searchValue: string = "";
-
+  public loading: boolean = false;
   private _snackBar = inject(MatSnackBar);
 
   constructor(private transactionsService: transactionsService, private store: Store<AppState>) {
@@ -33,16 +36,23 @@ export class ListComponent implements OnInit {
   }
 
   async ngOnInit() {
-    try {
-      await this.transactionsService.getAllTransactions();
-      this.transactions$.subscribe(transactions => {
-        this.transToDisplay = transactions; // Initialize the display array
+    this.loading = true; // Set loading to true
+    this.store.dispatch(initTransactions()); // Dispatch the action to fetch transactions
+  
+    // Subscribe to the transactions observable
+    this.transactions$.subscribe(transactions => {
+      if (transactions.length > 0) {
+        this.transToDisplay = transactions; 
         this.replaceCategoryNames();
-      });
-    } catch (error: any) {
+      } else {
+        this.openSnackBar("No transactions found", "X");
+      }
+      this.loading = false; // Set loading to false when data is processed
+    }, error => {
       this.openSnackBar("Something went wrong", "X");
       console.log(error);
-    }
+      this.loading = false; // Set loading to false on error
+    });
   }
 
   private async replaceCategoryNames() {
