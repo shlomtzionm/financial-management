@@ -6,7 +6,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatInputModule } from "@angular/material/input";
 import { DialogData } from "../action-menu/action-menu.component";
 import { categoryModel } from "../../../models/category-model";
-import { transactionsService } from "../../../services/transactions.service";
+import { TransactionsService } from "../../../services/transactions.service";
 import { MatSnackBar } from "@angular/material/snack-bar";
 import { MatIconModule } from "@angular/material/icon";
 import { MatDatepickerModule } from "@angular/material/datepicker";
@@ -36,7 +36,7 @@ import { MatNativeDateModule } from "@angular/material/core";
   styleUrl: "./update.component.css",
 })
 export class UpdateComponent {
-  public constructor(private transactionsServices: transactionsService) {}
+  public constructor(private transactionsServices: TransactionsService) {}
   public categories: categoryModel[];
   private _snackBar = inject(MatSnackBar);
 

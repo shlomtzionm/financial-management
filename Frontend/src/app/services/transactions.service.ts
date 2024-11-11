@@ -5,22 +5,20 @@ import { firstValueFrom } from "rxjs";
 import { TransactionModel } from "../models/transaction-model";
 import { categoryModel } from "../models/category-model";
 
-import { Store } from "@ngrx/store";
-import { initTransactions } from "../store/trans.actions";
 
 
 
 @Injectable({
   providedIn: "root",
 })
-export class transactionsService {
-  constructor(private http: HttpClient, private store :Store) {}
+export class TransactionsService {
+  constructor(private http: HttpClient) {}
 
 
   public async getAllTransactions() {
+
     const observable = this.http.get<TransactionModel[]>(appConfig.transactionUrl);
     const data = await firstValueFrom(observable);
-  
     return data;
   }
 

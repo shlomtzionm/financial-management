@@ -3,10 +3,10 @@ import { TransactionModel } from "../../../models/transaction-model";
 import { CommonModule } from "@angular/common";
 import { FormsModule } from "@angular/forms";
 import { MatIconModule } from "@angular/material/icon";
-import { transactionsService } from "../../../services/transactions.service";
+import { TransactionsService } from "../../../services/transactions.service";
 import { MatSnackBar } from "@angular/material/snack-bar";
 import { ActionMenuComponent } from "../action-menu/action-menu.component";
-import {  Store } from "@ngrx/store";
+import {  provideStore, Store } from "@ngrx/store";
 import { Observable } from "rxjs";
 import { selectAllTransactions } from "../../../store/trans.selectores"; // Correct the import name
 import { AppState } from "../../../store/app.state";
@@ -16,7 +16,8 @@ import { initTransactions } from "../../../store/trans.actions";
 @Component({
   selector: "app-list",
   standalone: true,
-  imports: [CommonModule, FormsModule, MatIconModule, ActionMenuComponent],
+  imports: [CommonModule, FormsModule, MatIconModule
+    , ActionMenuComponent],
   templateUrl: "./list.component.html",
   styleUrls: ["./list.component.css"],
 })
@@ -31,28 +32,39 @@ export class ListComponent implements OnInit {
   public loading: boolean = false;
   private _snackBar = inject(MatSnackBar);
 
-  constructor(private transactionsService: transactionsService, private store: Store<AppState>) {
+  constructor(private transactionsService: TransactionsService, private store: Store<AppState>) {
     this.transactions$ = this.store.select(selectAllTransactions);
+  console.log(transactionsService);
+  
   }
 
   async ngOnInit() {
     this.loading = true; // Set loading to true
+    console.log("dispatch");
+    
     this.store.dispatch(initTransactions()); // Dispatch the action to fetch transactions
+    console.log("after dispatch");
   
     // Subscribe to the transactions observable
-    this.transactions$.subscribe(transactions => {
-      if (transactions.length > 0) {
-        this.transToDisplay = transactions; 
-        this.replaceCategoryNames();
-      } else {
-        this.openSnackBar("No transactions found", "X");
+    this.transactions$.subscribe(
+      async (transactions) => {
+        if (transactions.length > 0) {
+          
+          this.transToDisplay = transactions; 
+          await this.replaceCategoryNames();
+        } else {
+          this.openSnackBar("No transactions found", "X");
+          console.log(transactions);
+
+        }
+        this.loading = false; // Set loading to false when data is processed
+      },
+      (error) => {
+        this.openSnackBar("Something went wrong", "X");
+        console.log(error); // Log the error for debugging
+        this.loading = false; // Set loading to false on error
       }
-      this.loading = false; // Set loading to false when data is processed
-    }, error => {
-      this.openSnackBar("Something went wrong", "X");
-      console.log(error);
-      this.loading = false; // Set loading to false on error
-    });
+    );
   }
 
   private async replaceCategoryNames() {

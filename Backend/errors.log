@@ -3413,3 +3413,8 @@ Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
 ---------------------------------------
 
+Time: Mon Nov 04 2024 21:44:38 GMT+0200 (Israel Standard Time)
+Message: Route /api/category-name/66e07a570616de762ed2daf4 not found.
+Stack: undefined
+---------------------------------------
+

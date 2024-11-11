@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { categoryModel } from '../../../models/category-model';
-import { transactionsService } from '../../../services/transactions.service';
+import { TransactionsService } from '../../../services/transactions.service';
 import { CommonModule } from '@angular/common';
 import { TransactionModel } from '../../../models/transaction-model';
 import { Router } from '@angular/router';
@@ -24,7 +24,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 })
 export class AddComponent implements OnInit {
 
-public constructor(private transactionsServices: transactionsService,private router: Router){}
+public constructor(private transactionsServices: TransactionsService,private router: Router){}
 
 public categories: categoryModel[]
 public transaction = new TransactionModel()

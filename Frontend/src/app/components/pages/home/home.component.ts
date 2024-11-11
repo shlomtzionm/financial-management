@@ -2,10 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
-import { transactionsService } from '../../../services/transactions.service';
-import { NgModule } from '@angular/core';
-
-
+import { TransactionsService } from '../../../services/transactions.service';
 
 
 interface ChartDataPoint {
@@ -23,7 +20,7 @@ interface ChartDataPoint {
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  public constructor(private transactionService: transactionsService) {}
+  public constructor(private transactionService: TransactionsService) {}
 
   public sumData: { _id: string; totalAmount: number }[] = [];
   public sumDataForChart: ChartDataPoint[] = [];
@@ -49,6 +46,8 @@ export class HomeComponent implements OnInit {
 
   async ngOnInit() {
     try {
+    
+      
       this.sumData = await this.transactionService.getCategoriesSum();
       const totalAmount = this.sumData.reduce((sum, D) => sum + D.totalAmount, 0);
 
