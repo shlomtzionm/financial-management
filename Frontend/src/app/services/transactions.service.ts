@@ -21,10 +21,9 @@ export class TransactionsService {
 
   }
 
-  public async getCategoryName(category: string) {
-    const observable = this.http.get<categoryModel>(appConfig.categoriesUrl + category);
-    const data = await firstValueFrom(observable);
-    return data;
+  public  getCategoryName(category: string):Observable<categoryModel> {
+    return this.http.get<categoryModel>(appConfig.categoriesUrl + category);
+ 
   }
 
   public async getCategories() {
