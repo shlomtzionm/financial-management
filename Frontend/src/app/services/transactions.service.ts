@@ -1,7 +1,7 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { appConfig } from "../app.config";
-import { firstValueFrom } from "rxjs";
+import { firstValueFrom, Observable } from "rxjs";
 import { TransactionModel } from "../models/transaction-model";
 import { categoryModel } from "../models/category-model";
 
@@ -15,11 +15,10 @@ export class TransactionsService {
   constructor(private http: HttpClient) {}
 
 
-  public async getAllTransactions() {
+  public getAllTransactions():Observable<TransactionModel[]> {
 
-    const observable = this.http.get<TransactionModel[]>(appConfig.transactionUrl);
-    const data = await firstValueFrom(observable);
-    return data;
+    return this.http.get<TransactionModel[]>(appConfig.transactionUrl);
+
   }
 
   public async getCategoryName(category: string) {
