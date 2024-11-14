@@ -95,6 +95,10 @@ export class ListComponent implements OnInit {
       this.transToDisplay$.next(filteredTransactions);
     });
   }
+
+  public sendUpdate=(_id:string, transaction :TransactionModel)=>{
+ this.transactionsService.updateTransaction(_id, transaction)
+  }
   
   
 

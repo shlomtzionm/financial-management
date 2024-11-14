@@ -5,7 +5,7 @@
   <mat-form-field appearance="outline">
     <mat-label>Category</mat-label>
     <mat-select name="category" [(ngModel)]="updatedTransaction.category" required>
-      <mat-option *ngFor="let c of categories$ |async" [value]="c._id">{{ c.name }}</mat-option>
+      <mat-option *ngFor="let c of categories$ |async"  [value]="c.name">{{ c.name }}</mat-option>
     </mat-select>
   </mat-form-field>
 
