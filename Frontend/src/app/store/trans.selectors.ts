@@ -1,6 +1,6 @@
 import { createSelector } from "@ngrx/store";
 import { AppState } from "./app.state";
-import { TransactionsState } from "./trans.reducere";
+import { TransactionsState } from "./trans.reducer";
 
 export const selectTransactions = (state: AppState) => state.transactions;
 

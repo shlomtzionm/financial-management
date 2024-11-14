@@ -5,7 +5,7 @@ import { routes } from './app.routes';
 import { provideHttpClient } from '@angular/common/http';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideStore } from '@ngrx/store';
-import { transactionsReducer } from './store/trans.reducere';
+import { transactionsReducer } from './store/trans.reducer';
 import { provideEffects } from '@ngrx/effects';
 import { TransactionsEffects } from './store/trans.effects';
 

@@ -21,10 +21,7 @@ import {
   ɵɵdefineNgModule,
   ɵɵgetInheritedFactory,
   ɵɵinject
-} from "./chunk-X52HWZM3.js";
-import {
-  queueScheduler
-} from "./chunk-F3XODBDP.js";
+} from "./chunk-VZD2ANCY.js";
 import {
   BehaviorSubject,
   Observable,
@@ -35,9 +32,10 @@ import {
   map,
   observeOn,
   pluck,
+  queueScheduler,
   scan,
   withLatestFrom
-} from "./chunk-DF2XVUUT.js";
+} from "./chunk-2CVCC5YH.js";
 
 // node_modules/@angular/core/fesm2022/rxjs-interop.mjs
 function toSignal(source, options) {
@@ -1323,4 +1321,4 @@ export {
    * License: MIT
    *)
 */
-//# sourceMappingURL=chunk-3UN4NX7A.js.map
+//# sourceMappingURL=chunk-4JC3I2X3.js.map
