@@ -12,6 +12,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-add',
@@ -26,7 +27,7 @@ export class AddComponent implements OnInit {
 
 public constructor(private transactionsServices: TransactionsService,private router: Router){}
 
-public categories: categoryModel[]
+public categories$: Observable<categoryModel[]>
 public transaction = new TransactionModel()
 
 public currentDate:string
@@ -39,7 +40,7 @@ openSnackBar(message: string, action: string) {
 
 public async ngOnInit(){
   try {
-    this.categories = await this.transactionsServices.getCategories()
+    this.categories$ = await this.transactionsServices.getCategories()
     const today = new Date();
     this.currentDate = today.toISOString().split('T')[0];
   } catch (error:any) {
@@ -51,8 +52,6 @@ public async ngOnInit(){
 
 public async send(){
   try {
-    console.log(this.transaction);
-    
     await this.transactionsServices.addTransaction(this.transaction)
     this.openSnackBar("You added a transaction", "X")
     this.router.navigateByUrl("/list")

@@ -13,6 +13,7 @@ import { MatDatepickerModule } from "@angular/material/datepicker";
 import { CommonModule } from "@angular/common";
 import { MatSelectModule } from "@angular/material/select";
 import { MatNativeDateModule } from "@angular/material/core";
+import { Observable } from "rxjs";
 
 @Component({
   selector: "app-update",
@@ -37,16 +38,11 @@ import { MatNativeDateModule } from "@angular/material/core";
 })
 export class UpdateComponent {
   public constructor(private transactionsServices: TransactionsService) {}
-  public categories: categoryModel[];
-  private _snackBar = inject(MatSnackBar);
-
-  openSnackBar(message: string, action: string) {
-    this._snackBar.open(message, action);
-  }
+  public categories$: Observable<categoryModel[]>;
 
   public async ngOnInit() {
     try {
-      this.categories = await this.transactionsServices.getCategories();
+      this.categories$ = await this.transactionsServices.getCategories();
     } catch (error: any) {
       this.openSnackBar("Something went wrong", "X");
     }
@@ -54,24 +50,26 @@ export class UpdateComponent {
 
   readonly dialogRef = inject(MatDialogRef<UpdateComponent>);
   readonly data = inject<DialogData>(MAT_DIALOG_DATA);
-  readonly update = model(this.data.transaction);
-public updatedTransaction = {...this.data.transaction}
-
+  public updatedTransaction = { ...this.data.transaction };
+ 
+  
 
   onNoClick(): void {
     this.dialogRef.close();
   }
 
-  public async send(){
+  public async send() {
     try {
-     
       this.dialogRef.close(this.updatedTransaction);
-    } catch (error:any) {
+    } catch (error: any) {
       console.log(error);
-      
-      this.openSnackBar("Something went wrong", "X")
+
+      this.openSnackBar("Something went wrong", "X");
     }
   }
+  private _snackBar = inject(MatSnackBar);
 
-  
+  openSnackBar(message: string, action: string) {
+    this._snackBar.open(message, action);
+  }
 }

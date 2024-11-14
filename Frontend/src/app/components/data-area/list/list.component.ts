@@ -8,15 +8,16 @@ import { MatSnackBar } from "@angular/material/snack-bar";
 import { select, Store } from "@ngrx/store";
 import { AppState } from "../../../store/app.state";
 import { initTransactions } from "../../../store/trans.actions";
-import { forkJoin, of, map, catchError, take, BehaviorSubject } from "rxjs";
+import { forkJoin, of, map, catchError, BehaviorSubject } from "rxjs";
 import { selectAllTransactions } from "../../../store/trans.selectors";
 import { ListService } from "../../../services/list.service";
-import { transition } from "@angular/animations";
+import { UpdateComponent } from "../update/update.component";
+import { ActionMenuComponent } from "../action-menu/action-menu.component";
 
 @Component({
   selector: "app-list",
   standalone: true,
-  imports: [CommonModule, FormsModule, MatIconModule],
+  imports: [CommonModule, FormsModule, MatIconModule, UpdateComponent, ActionMenuComponent],
   templateUrl: "./list.component.html",
   styleUrls: ["./list.component.css"],
 })
@@ -34,12 +35,7 @@ export class ListComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.store.pipe(select(selectAllTransactions), take(1)).subscribe((transactions) => {
-      if (transactions.length === 0) {
-        this.store.dispatch(initTransactions());
-      }
-    });
-
+    this.store.dispatch(initTransactions());
     this.store.pipe(select(selectAllTransactions)).subscribe((transactions) => {
       forkJoin(
         transactions.map((t) =>
@@ -76,17 +72,16 @@ export class ListComponent implements OnInit {
   }
 
   public onSearch() {
-    // Get transactions from the store
     this.store.pipe(select(selectAllTransactions)).subscribe(async (transactions) => {
       
-      // First, we need to fetch the updated category names asynchronously
+   
       const updatedTransactions = await Promise.all(
         transactions.map(async (transaction) => {
           try {
             const categoryName = await this.transactionsService.getCategoryName(transaction.category).toPromise();
-            return { ...transaction, category: categoryName.name }; // Update the category
+            return { ...transaction, category: categoryName.name }; 
           } catch (error) {
-            return { ...transaction }; // In case of error, return the original transaction
+            return { ...transaction }; 
           }
         })
       );
