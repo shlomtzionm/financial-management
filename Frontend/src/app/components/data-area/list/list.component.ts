@@ -96,8 +96,29 @@ export class ListComponent implements OnInit {
     });
   }
 
-  public sendUpdate=(_id:string, transaction :TransactionModel)=>{
- this.transactionsService.updateTransaction(_id, transaction)
+  public sendUpdate = (_id: string, transaction: TransactionModel) => {
+    try {
+      this.transactionsService.updateTransaction(_id, transaction).subscribe(() => {
+        const updatedTransactions = this.transToDisplay$.getValue().map((t) =>
+          t._id === _id ? { ...t, ...transaction } : t
+        );
+        this.transToDisplay$.next(updatedTransactions); // Update with modified list
+      });
+    } catch (error: any) {
+      this._snackBar.open("Something went wrong", "X");
+    }
+  }
+  
+  
+  public sendDelete = (_id: string) => {
+    try {
+      this.transactionsService.deleteTransaction(_id).subscribe(() => {
+        const updatedTransactions = this.transToDisplay$.getValue().filter((t) => t._id !== _id);
+        this.transToDisplay$.next(updatedTransactions); // Update the list without the deleted transaction
+      });
+    } catch (error: any) {
+      this._snackBar.open("Something went wrong", "X");
+    }
   }
   
   

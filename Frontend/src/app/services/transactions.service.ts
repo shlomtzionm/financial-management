@@ -35,12 +35,12 @@ export class TransactionsService {
     return data;
   }
 
-  public async deleteTransaction(_id: string): Promise<void> {
-    const observable = this.http.delete<void>(appConfig.transactionUrl + _id);
-    await firstValueFrom(observable);
+  public  deleteTransaction(_id: string): Observable<void> {
+    return this.http.delete<void>(appConfig.transactionUrl + _id);
+    
   }
 
-  public async updateTransaction(_id: string, transaction: TransactionModel) {
+  public updateTransaction(_id: string, transaction: TransactionModel):Observable<TransactionModel> {
     const myFormData = new FormData();
     myFormData.append("_id", transaction._id);
     myFormData.append("amount", transaction.amount.toString());
@@ -48,10 +48,8 @@ export class TransactionsService {
     myFormData.append("date", transaction.date.toString());
     myFormData.append("description", transaction.description);
     myFormData.append("image", transaction.image);
-    const observable = this.http.put<TransactionModel>(appConfig.transactionUrl + _id, myFormData);
-    const date = await firstValueFrom(observable);
-
-    return date;
+    return this.http.put<TransactionModel>(appConfig.transactionUrl + _id, myFormData);
+    
   }
 
   public async getCategoriesSum() {
