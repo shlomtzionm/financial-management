@@ -1,8 +1,9 @@
-<div *ngIf="showChart">
-    <canvasjs-chart [options]="chartOptions"></canvasjs-chart>
-  </div>
-  
-  <div *ngIf="!showChart">
-    <p>Loading chart...</p>
-  </div>
-  
+<p>Your incomes this month: {{monthlyIncome}}</p>
+<p>Your outcomes this month: {{monthlyOutcome}}</p>
+<mat-form-field appearance="outline"> 
+<mat-label>Choose your goal</mat-label>
+<input type="number" required matInput name="goal" [(ngModel)]="goal"/>
+</mat-form-field>
+<p>This month you saved: {{monthlySaved}}</p>
+<p>In average it will take you to get to your goal</p>
+

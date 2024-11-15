@@ -1,80 +1,49 @@
-// import { Component, OnInit } from '@angular/core';
-// import { CommonModule } from '@angular/common';
-// import { RouterOutlet } from '@angular/router';
-// import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
-// import { TransactionsService } from '../../../services/transactions.service';
+import { Component, inject, OnInit } from "@angular/core";
+import { MatSnackBar } from "@angular/material/snack-bar";
+import { HomeService } from "../../../services/home.service";
+import { FormsModule } from "@angular/forms";
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatInputModule } from "@angular/material/input";
 
+@Component({
+  selector: "app-home",
+  standalone: true,
+  imports: [FormsModule, MatFormFieldModule, MatInputModule, FormsModule],
+  templateUrl: "./home.component.html",
+  styleUrls: ["./home.component.css"],
+})
+export class HomeComponent implements OnInit {
+  public monthlyIncome: number;
+  public monthlyOutcome: number;
+  public goal: number;
+  public monthlySaved: number;
 
-// interface ChartDataPoint {
-//   name: string;
-//   y: number;
-//   color?: string; // Optional color property
-// }
+  public constructor(public homeService: HomeService) {}
 
-// @Component({
-//   selector: 'app-home',
-//   standalone: true,
+  ngOnInit(): void {
+    try {
+      this.homeService.monthlyIncome().subscribe(income => {
+        this.monthlyIncome = income;
+      });
+
+      this.homeService.monthlyOutcome().subscribe(outcome => {
+        this.monthlyOutcome = outcome;
+      });
   
-//   imports: [CommonModule, RouterOutlet, CanvasJSAngularChartsModule],
-//   templateUrl: './home.component.html',
-//   styleUrls: ['./home.component.css']
-// })
-// export class HomeComponent implements OnInit {
-//   public constructor(private transactionService: TransactionsService) {}
-
-//   public sumData: { _id: string; totalAmount: number }[] = [];
-//   public sumDataForChart: ChartDataPoint[] = [];
-  
-//   // Example color palette
-//   private colorPalette = ["#FFB569", "#DE8439", "#BC5308","#78290F"];
-
-//   public chartOptions: any = {
-//     animationEnabled: true,
-//     backgroundColor: "transparent",
-//     title: {
-//       text: "Category Expense Distribution"
-//     },
-//     data: [{
-//       type: "doughnut",
-//       yValueFormatString: "#,###.##'%'",
-//       indexLabel: "{name}",
-//       dataPoints: this.sumDataForChart // Will be populated later
-//     }]
-//   };
-
-//   public showChart = false; // Flag for chart visibility
-
-//   async ngOnInit() {
-//     try {
+      this.homeService.monthlySaved().subscribe(saved=>
+        this.monthlySaved = saved
+      )
     
-      
-//       this.sumData = await this.transactionService.getCategoriesSum();
-//       const totalAmount = this.sumData.reduce((sum, D) => sum + D.totalAmount, 0);
+  
+    } catch (error: any) {
+      this._snackBar.open("Something went wrong", "x");
+    }
+  }
 
-//       const categoryPromises = this.sumData.map(D => this.transactionService.getCategoryName(D._id));
-//       const categories = await Promise.all(categoryPromises);
 
-//       this.sumDataForChart = this.sumData.map((D, index) => {
-//         const percentage = (D.totalAmount / totalAmount) * 100;
-//         return { name: categories[index], y: percentage, color: this.colorPalette[index % this.colorPalette.length] };
-//       });
+  private _snackBar = inject(MatSnackBar);
 
-//       this.updateChartOptions();
-
-//       setTimeout(() => {
-//         this.showChart = true;
-//       }, 1000);
-
-//     } catch (error: any) {
-//       console.error('Error fetching category sums or details:', error);
-//     }
-//   }
-
-//   private updateChartOptions() {
-//     this.chartOptions.data[0].dataPoints = this.sumDataForChart.map(dp => ({
-//       name: dp.name,
-//       y: dp.y,
-//       color: dp.color // Now TypeScript recognizes this property
-//     }));
-//   }
-// }
+  openSnackBar(message: string, action: string) {
+    this._snackBar.open(message, action);
+  }
+}

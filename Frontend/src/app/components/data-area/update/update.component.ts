@@ -1,4 +1,4 @@
-import { Component, inject, model } from "@angular/core";
+import { Component, inject, model, OnInit } from "@angular/core";
 import { FormsModule } from "@angular/forms";
 import { MatButtonModule } from "@angular/material/button";
 import { MatDialogTitle, MatDialogContent, MatDialogActions, MatDialogClose, MatDialogRef, MAT_DIALOG_DATA } from "@angular/material/dialog";
@@ -28,15 +28,12 @@ import { Observable } from "rxjs";
     MatInputModule,
     FormsModule,
     MatButtonModule,
-    MatDialogTitle,
-    MatDialogContent,
     MatDialogActions,
-    MatDialogClose,
   ],
   templateUrl: "./update.component.html",
   styleUrl: "./update.component.css",
 })
-export class UpdateComponent {
+export class UpdateComponent implements OnInit {
   public constructor(private transactionsServices: TransactionsService) {}
   public categories$: Observable<categoryModel[]>;
 

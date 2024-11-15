@@ -11,86 +11,70 @@ import { initTransactions } from "../../../store/trans.actions";
 import { forkJoin, of, map, catchError, BehaviorSubject } from "rxjs";
 import { selectAllTransactions } from "../../../store/trans.selectors";
 import { ListService } from "../../../services/list.service";
-import { UpdateComponent } from "../update/update.component";
 import { ActionMenuComponent } from "../action-menu/action-menu.component";
 
 @Component({
   selector: "app-list",
   standalone: true,
-  imports: [CommonModule, FormsModule, MatIconModule, UpdateComponent, ActionMenuComponent],
+  imports: [CommonModule, FormsModule, MatIconModule, ActionMenuComponent],
   templateUrl: "./list.component.html",
   styleUrls: ["./list.component.css"],
 })
 export class ListComponent implements OnInit {
   public transToDisplay$: BehaviorSubject<TransactionModel[]> = new BehaviorSubject<TransactionModel[]>([]);
-  
+
   public isStartDate: boolean = true;
   public isStartAmount: boolean = true;
   public searchValue: string = "";
 
-  constructor(
-    private transactionsService: TransactionsService,
-    private store: Store<AppState>,
-    private listService: ListService
-  ) {}
+  constructor(private transactionsService: TransactionsService, private store: Store<AppState>, private listService: ListService) {}
 
   ngOnInit() {
     this.store.dispatch(initTransactions());
-    this.store.pipe(select(selectAllTransactions)).subscribe((transactions) => {
+    this.store.pipe(select(selectAllTransactions)).subscribe(transactions => {
       forkJoin(
-        transactions.map((t) =>
+        transactions.map(t =>
           this.transactionsService.getCategoryName(t.category).pipe(
-            map((categoryName) => ({ ...t, category: categoryName.name })),
-            catchError(() => of(t)) 
+            map(categoryName => ({ ...t, category: categoryName.name })),
+            catchError(() => of(t))
           )
         )
-      ).subscribe((updatedTransactions) => {
-        this.transToDisplay$.next(updatedTransactions); 
+      ).subscribe(updatedTransactions => {
+        this.transToDisplay$.next(updatedTransactions);
       });
     });
   }
 
- 
-
   public onSortAmount() {
-    const sortedTransactions = this.listService.sortByAmount(
-      this.transToDisplay$.getValue(), 
-      this.isStartAmount
-    );
-    this.isStartAmount = !this.isStartAmount; 
-    this.transToDisplay$.next(sortedTransactions); 
+    const sortedTransactions = this.listService.sortByAmount(this.transToDisplay$.getValue(), this.isStartAmount);
+    this.isStartAmount = !this.isStartAmount;
+    this.transToDisplay$.next(sortedTransactions);
   }
 
-
   public onSortDate() {
-    const sortedTransactions = this.listService.sortByDate(
-      this.transToDisplay$.getValue(), 
-      this.isStartDate
-    );
-    this.isStartDate = !this.isStartDate; 
-    this.transToDisplay$.next(sortedTransactions); 
+    const sortedTransactions = this.listService.sortByDate(this.transToDisplay$.getValue(), this.isStartDate);
+    this.isStartDate = !this.isStartDate;
+    this.transToDisplay$.next(sortedTransactions);
   }
 
   public onSearch() {
-    this.store.pipe(select(selectAllTransactions)).subscribe(async (transactions) => {
-      
-   
+    this.store.pipe(select(selectAllTransactions)).subscribe(async transactions => {
       const updatedTransactions = await Promise.all(
-        transactions.map(async (transaction) => {
+        transactions.map(async transaction => {
           try {
             const categoryName = await this.transactionsService.getCategoryName(transaction.category).toPromise();
-            return { ...transaction, category: categoryName.name }; 
+            return { ...transaction, category: categoryName.name };
           } catch (error) {
-            return { ...transaction }; 
+            return { ...transaction };
           }
         })
       );
-  
+
       // Now, filter the transactions based on the search value
-      const filteredTransactions = updatedTransactions.filter((transaction) => {
+      const filteredTransactions = updatedTransactions.filter(transaction => {
         return this.listService.search(transaction, this.searchValue);
       });
-  
+
       // Update transToDisplay$ with the filtered transactions
       this.transToDisplay$.next(filteredTransactions);
     });
@@ -98,30 +82,26 @@ export class ListComponent implements OnInit {
 
   public sendUpdate = (_id: string, transaction: TransactionModel) => {
     try {
+      this.transactionsService.getCategoryName(transaction.category).subscribe(category => {
+        transaction.category = category.name});
       this.transactionsService.updateTransaction(_id, transaction).subscribe(() => {
-        const updatedTransactions = this.transToDisplay$.getValue().map((t) =>
-          t._id === _id ? { ...t, ...transaction } : t
-        );
-        this.transToDisplay$.next(updatedTransactions); // Update with modified list
-      });
+        const updatedTransactions = this.transToDisplay$.getValue().map(t => (t._id === _id ? { ...t, ...transaction } : t));
+        this.transToDisplay$.next(updatedTransactions); });
     } catch (error: any) {
       this._snackBar.open("Something went wrong", "X");
     }
-  }
-  
-  
+  };
+
   public sendDelete = (_id: string) => {
     try {
       this.transactionsService.deleteTransaction(_id).subscribe(() => {
-        const updatedTransactions = this.transToDisplay$.getValue().filter((t) => t._id !== _id);
+        const updatedTransactions = this.transToDisplay$.getValue().filter(t => t._id !== _id);
         this.transToDisplay$.next(updatedTransactions); // Update the list without the deleted transaction
       });
     } catch (error: any) {
       this._snackBar.open("Something went wrong", "X");
     }
-  }
-  
-  
+  };
 
   private _snackBar = inject(MatSnackBar);
 
