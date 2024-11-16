@@ -17,6 +17,8 @@ export class HomeComponent implements OnInit {
   public monthlyOutcome: number;
   public goal: number;
   public monthlySaved: number;
+  public monthToGoal: number;
+  public totalBalance: number;
 
   public constructor(public homeService: HomeService) {}
 
@@ -27,11 +29,15 @@ export class HomeComponent implements OnInit {
       });
 
       this.homeService.monthlyOutcome().subscribe(outcome => {
-        this.monthlyOutcome = outcome;
+        this.monthlyOutcome = -outcome;
       });
   
       this.homeService.monthlySaved().subscribe(saved=>
         this.monthlySaved = saved
+      )
+
+      this.homeService.totalBalance().subscribe(total=>
+        this.totalBalance = total
       )
     
   

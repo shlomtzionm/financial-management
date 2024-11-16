@@ -1,9 +1,17 @@
-<p>Your incomes this month: {{monthlyIncome}}</p>
-<p>Your outcomes this month: {{monthlyOutcome}}</p>
+
+<h4>Monthly Overview</h4>
+<p>Your incomes this month: ${{monthlyIncome}}</p>
+<p>Your outcomes this month:${{monthlyOutcome}}</p>
+<p>This month you saved:${{monthlySaved}}</p>
+
+<h4>Your Goal</h4>
 <mat-form-field appearance="outline"> 
 <mat-label>Choose your goal</mat-label>
-<input type="number" required matInput name="goal" [(ngModel)]="goal"/>
+<input type="number" [min]="1" required matInput name="goal" [(ngModel)]="goal"/>
 </mat-form-field>
-<p>This month you saved: {{monthlySaved}}</p>
-<p>In average it will take you to get to your goal</p>
+<mat-form-field appearance="outline"> 
+    <mat-label>Month to goal</mat-label>
+    <input type="number" [min]="1" [max]="12" required matInput name="monthToGoal" [(ngModel)]="monthToGoal"/>
+    </mat-form-field>
+<h3>Total saving: ${{totalBalance}}</h3>
 
