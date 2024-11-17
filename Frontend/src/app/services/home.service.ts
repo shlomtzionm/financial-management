@@ -28,7 +28,13 @@ export class HomeService {
     );
   }
 
-  public averageMonthToGoal(goal: number) {}
+  public averageForMonthToGoal(goal: number, numberMonth:number, saveByNow:number):number {
+return (goal - saveByNow) / numberMonth 
+  }
+
+  public leftToSave(goal: number, saveByNow:number):number {
+    return (goal - saveByNow) 
+      }
 
   public totalBalance() {
     return this.transactions$.pipe(

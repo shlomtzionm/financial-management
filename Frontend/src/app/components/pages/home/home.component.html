@@ -1,17 +1,23 @@
-
+<div class="month">
 <h4>Monthly Overview</h4>
-<p>Your incomes this month: ${{monthlyIncome}}</p>
-<p>Your outcomes this month:${{monthlyOutcome}}</p>
-<p>This month you saved:${{monthlySaved}}</p>
+<p>Total saving: {{ totalBalance | currency }}</p>
+<p>Left to save: {{ leftToSave | currency }}</p>
+<p>Save this month: {{ leftToSavePerMonth | currency }}</p>
+</div>
 
+<div class="goal">
 <h4>Your Goal</h4>
-<mat-form-field appearance="outline"> 
-<mat-label>Choose your goal</mat-label>
-<input type="number" [min]="1" required matInput name="goal" [(ngModel)]="goal"/>
+<mat-form-field  appearance="fill" > 
+<mat-label  [(ngModel)]="goal">Choose your goal</mat-label>
+<input  type="number" [min]="1" required matInput name="goal" [(ngModel)]="goal"/>
 </mat-form-field>
-<mat-form-field appearance="outline"> 
+<mat-form-field appearance="fill"> 
     <mat-label>Month to goal</mat-label>
-    <input type="number" [min]="1" [max]="12" required matInput name="monthToGoal" [(ngModel)]="monthToGoal"/>
+    <input class="input" type="number" [min]="1"  required matInput name="monthToGoal" [(ngModel)]="monthToGoal"/>
     </mat-form-field>
-<h3>Total saving: ${{totalBalance}}</h3>
+<p>Total saving: {{totalBalance | currency}}</p>
+<p>Left to save: {{leftToSave | currency}}</p>
+<p>save per month: {{leftToSavePerMonth| currency}}</p>
+</div>
+<button mat-button (click)="onClick()">Calculate</button>
 

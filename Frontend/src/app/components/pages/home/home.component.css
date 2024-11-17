@@ -1,0 +1,11 @@
+.month, .goal{
+    margin:16px auto;
+    background-color:#a7735c ;
+    width:60% ;
+padding: 8px;
+border-radius: 16px;
+display: flex;
+flex-direction: column;
+}
+
+
