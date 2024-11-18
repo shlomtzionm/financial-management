@@ -6288,3 +6288,87 @@ Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
 ---------------------------------------
 
+Time: Sun Nov 17 2024 14:54:41 GMT+0200 (שעון ישראל (חורף))
+Message: Cast to ObjectId failed for value "sports" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "sports" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Nov 17 2024 14:54:42 GMT+0200 (שעון ישראל (חורף))
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Sun Nov 17 2024 14:54:42 GMT+0200 (שעון ישראל (חורף))
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Nov 18 2024 12:11:02 GMT+0200 (שעון ישראל (חורף))
+Message: Cast to ObjectId failed for value "sports" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "sports" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Nov 18 2024 12:11:02 GMT+0200 (שעון ישראל (חורף))
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
+Time: Mon Nov 18 2024 12:11:02 GMT+0200 (שעון ישראל (חורף))
+Message: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+Stack: CastError: Cast to ObjectId failed for value "food" (type string) at path "_id" for model "CategoryModel"
+    at SchemaObjectId.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)
+    at SchemaObjectId.SchemaType.applySetters (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1236:12)
+    at SchemaObjectId.SchemaType.castForQuery (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\schemaType.js:1653:17)
+    at cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\cast.js:375:32)
+    at model.Query.Query.cast (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4798:12)
+    at model.Query.Query._castConditions (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2206:10)
+    at model.Query._findOne (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:2526:8)
+    at model.Query.exec (C:\Users\User\Desktop\shlomtzion\transactions\backend\node_modules\mongoose\lib\query.js:4342:80)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+---------------------------------------
+
