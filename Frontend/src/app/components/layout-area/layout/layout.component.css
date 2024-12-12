@@ -1,12 +1,12 @@
 .menu{
-    background-color: #D8D2C2;
-color: #412e20;
-box-shadow:1px 1px 25px rgba(87, 117, 97, 0.705) ;
-margin-bottom: 50px;
+color: #002cb2;
+margin-bottom: 32px;
 }
 
 h1{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-bottom: 7px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+padding-top: 8px;
 }
+
 

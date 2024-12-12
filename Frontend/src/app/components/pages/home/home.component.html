@@ -1,5 +1,6 @@
-<h2 class="header primery">Balance {{totalBalance | currency}}</h2>
-
+<div class="HomeContainer">
+<h5 class="header primery">Total Balance {{totalBalance | currency}}</h5>
+<div class="SecondeContainer">
 
 <div class="month">
 <h4 class="header">Monthly Overview</h4>
@@ -9,17 +10,18 @@
 </div>
 
 <div class="goal">
-<h4 class="header">Your Goal</h4>
-<mat-form-field  appearance="fill" > 
+<h4 class="header">Set A Goal</h4>
+<mat-form-field  appearance="outline" > 
 <mat-label  [(ngModel)]="goal">Choose your goal</mat-label>
 <input  type="number" [min]="1" required matInput name="goal" [(ngModel)]="goal"/>
 </mat-form-field>
-<mat-form-field appearance="fill"> 
+<mat-form-field appearance="outline"> 
     <mat-label>Month to goal</mat-label>
     <input class="input" type="number" [min]="1"  required matInput name="monthToGoal" [(ngModel)]="monthToGoal"/>
     </mat-form-field>
 <p>Left to save: {{leftToSave | currency}}</p>
 <p>save per month: {{leftToSavePerMonth| currency}}</p>
-</div>
 <button mat-button (click)="onClick()">Calculate</button>
-
+</div>
+</div>
+</div>

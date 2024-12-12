@@ -2,7 +2,7 @@ html, body {
     overflow-y: auto;
     height: 100%;
     text-align: center;
-    background-color: rgb(247, 247, 247); 
+    background-color: #efeff0; 
     /* margin: auto; */
     justify-content: center;
     align-items: center;
